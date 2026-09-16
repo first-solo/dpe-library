@@ -1,0 +1,32 @@
+id: acs-commercial-airplane
+title: Commercial Pilot for Airplane Category Airman Certification Standards
+doc_number: FAA-S-ACS-6
+type: acs
+status: current
+revision: B
+effective_date: 2023-11-01
+source_url: https://www.faa.gov/training_testing/testing/acs
+pdf_url: https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf
+last_checked: '2026-09-16'
+tags:
+- acs
+- task-selection
+- discontinuance
+- retest
+- eligibility
+applies_to:
+- COM-ASEL
+- COM-AMEL
+- COM-ASES
+- COM-AMES
+related:
+- order-8900-1-vol5-ch2
+check:
+  method: head
+notes: 'Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to
+
+  FAA-G-ACS-2 (Companion Guide) at revision C.'
+http:
+  etag: ''
+  last_modified: Fri, 29 Mar 2024 15:43:38 GMT
+  content_length: '982710'

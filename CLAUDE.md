@@ -92,21 +92,37 @@ baseline recorded. The update loop has been proven end to end.
 
 ## Open work, roughly in order
 
-1. **Backfill the catalog.** Stub broadly first — title, doc number, type,
+1. **Fix comment-destroying writes in `check_updates.py`.** `apply_updates()`
+   round-trips catalog files through `yaml.safe_load` / `yaml.safe_dump`, which
+   silently strips comments and normalizes formatting — empty values become
+   `null`, block scalars reflow. Catalog files carry `# verify this` annotations
+   during backfill and losing them silently is the worst kind of failure.
+
+   Replace the round-trip with `ruamel.yaml` in round-trip mode (`YAML()` with
+   `preserve_quotes=True`), add it to `requirements.txt`, and keep the write
+   surface exactly as it is: only `http`, `sha256`, `check.seen_count`, and
+   `last_checked` are ever written, and nothing else in the file may change.
+
+   Verify with a catalog file that has a comment on a field the checker writes
+   to, plus a `notes:` block scalar and an empty-valued key. Run
+   `make updates-write` and confirm `git diff` shows only the intended lines.
+   `dpelib.load_catalog` can stay on PyYAML — it only reads.
+
+2. **Backfill the catalog.** Stub broadly first — title, doc number, type,
    tags, `TODO` elsewhere — then verify in a second pass. The schema has only
    met five documents; expect it to need changes.
-2. **An `interprets:` field** for legal interpretations, holding CFR
+3. **An `interprets:` field** for legal interpretations, holding CFR
    references (`interprets: [61.129, 61.195]`). Proposed, not agreed. Raise it
    when the first real interpretations get catalogued rather than building it
    speculatively.
-3. **HTML output.** `build.py` should emit `local/index.html` (private, links
+4. **HTML output.** `build.py` should emit `local/index.html` (private, links
    to `local/pdfs/`) and `site/index.html` (public, links to FAA). Client-side
    search over the existing `index.json` using MiniSearch or Lunr from a CDN,
    no backend. This was deferred, not rejected.
-4. **Full-text search.** `poppler-utils` is already in the image for
+5. **Full-text search.** `poppler-utils` is already in the image for
    `pdftotext`. Extract into per-document JSON loaded on demand — do not inline
    full text into the main index, it will not stay small.
-5. **GitHub Pages** once the public surface is worth publishing. The repo is
+6. **GitHub Pages** once the public surface is worth publishing. The repo is
    private for now; that's intentional while the notes convention settles.
 
 ## Working style

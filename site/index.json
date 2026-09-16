@@ -1,13 +1,40 @@
 [
   {
-    "id": "acs-private-airplane",
-    "title": "Private Pilot \u2013 Airplane Airman Certification Standards",
+    "id": "acs-commercial-airplane",
+    "title": "Commercial Pilot for Airplane Category Airman Certification Standards",
     "doc_number": "FAA-S-ACS-6",
     "type": "acs",
     "status": "current",
-    "revision": "TODO",
-    "effective_date": "TODO",
-    "url": "TODO",
+    "revision": "B",
+    "effective_date": "2023-11-01",
+    "url": "https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf",
+    "tags": [
+      "acs",
+      "task-selection",
+      "discontinuance",
+      "retest",
+      "eligibility"
+    ],
+    "applies_to": [
+      "COM-ASEL",
+      "COM-AMEL",
+      "COM-ASES",
+      "COM-AMES"
+    ],
+    "notes": "Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to\nFAA-G-ACS-2 (Companion Guide) at revision C.",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "acs-private-airplane",
+    "title": "Private Pilot for Airplane Category Airman Certification Standards",
+    "doc_number": "FAA-S-ACS-6",
+    "type": "acs",
+    "status": "current",
+    "revision": "C",
+    "effective_date": "2023-11-01",
+    "url": "https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf",
     "tags": [
       "acs",
       "task-selection",
@@ -17,12 +44,13 @@
     ],
     "applies_to": [
       "PVT-ASEL",
-      "PVT-AMEL"
+      "PVT-AMEL",
+      "PVT-ASES",
+      "PVT-AMES"
     ],
-    "notes": "Appendix A holds the retest and discontinuance matrix.\n",
+    "notes": "Supersedes FAA-S-ACS-6B. Non-regulatory appendix material moved to\nFAA-G-ACS-2 (Companion Guide) at revision C.",
     "related": [
-      "order-8900-1-vol5-ch2",
-      "pts-cfi-airplane"
+      "order-8900-1-vol5-ch2"
     ]
   },
   {
