@@ -1,0 +1,48 @@
+name: check-updates
+
+on:
+  schedule:
+    - cron: '17 13 * * 1'   # Mondays, 13:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+
+      - name: Check upstream sources
+        id: check
+        env:
+          PYTHONPATH: scripts
+        continue-on-error: true
+        run: |
+          python scripts/check_updates.py --write --json local/report.json \
+            | tee local/report.txt
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild generated files
+        env:
+          PYTHONPATH: scripts
+        run: python scripts/build.py
+
+      - name: Open a pull request if anything moved
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: upstream-drift
+          title: 'Upstream document changes detected'
+          commit-message: 'chore: refresh catalog hashes and last_checked'
+          body-path: local/report.txt
+          add-paths: |
+            catalog/
+            README.md
+            site/index.json

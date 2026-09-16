@@ -1,0 +1,20 @@
+id: pts-cfi-airplane
+title: Flight Instructor – Airplane Practical Test Standards
+doc_number: FAA-S-8081-6
+type: pts
+status: superseded
+revision: D
+effective_date: TODO
+source_url: https://www.faa.gov/training_testing/testing
+pdf_url: TODO
+mirror: true              # superseded, worth freezing a copy
+last_checked:
+tags: [cfi, legacy, superseded]
+applies_to: [CFI-A]
+superseded_by: []         # add the ACS id once catalogued
+related: [acs-private-airplane]
+check:
+  method: manual
+notes: |
+  Kept for applicants tested under the legacy standard and for tracing how
+  a task was worded before the ACS transition.

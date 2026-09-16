@@ -1,0 +1,18 @@
+id: order-8000-95
+title: Designee Management Policy
+doc_number: 8000.95
+type: order
+status: current
+revision: TODO
+effective_date: TODO
+source_url: https://drs.faa.gov/browse
+pdf_url: TODO
+last_checked:
+tags: [designee, dpe, oversight, renewal, managing-specialist]
+applies_to: [ALL]
+related: [order-8900-1-vol5-ch2]
+check:
+  method: head
+notes: |
+  Volume 2 covers designee selection and appointment; the oversight and
+  renewal expectations that actually affect you sit later in the order.

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "acs-private-airplane",
+    "title": "Private Pilot \u2013 Airplane Airman Certification Standards",
+    "doc_number": "FAA-S-ACS-6",
+    "type": "acs",
+    "status": "current",
+    "revision": "TODO",
+    "effective_date": "TODO",
+    "url": "TODO",
+    "tags": [
+      "acs",
+      "task-selection",
+      "discontinuance",
+      "retest",
+      "eligibility"
+    ],
+    "applies_to": [
+      "PVT-ASEL",
+      "PVT-AMEL"
+    ],
+    "notes": "Appendix A holds the retest and discontinuance matrix.\n",
+    "related": [
+      "order-8900-1-vol5-ch2",
+      "pts-cfi-airplane"
+    ]
+  },
+  {
+    "id": "interp-agc-index",
+    "title": "FAA Chief Counsel Legal Interpretations (index)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "current",
+    "revision": null,
+    "effective_date": "",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "chief-counsel",
+      "index"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Watcher entry, not a document. The list check flags when new\ninterpretations appear so individual ones can be catalogued.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8000-95",
+    "title": "Designee Management Policy",
+    "doc_number": 8000.95,
+    "type": "order",
+    "status": "current",
+    "revision": "TODO",
+    "effective_date": "TODO",
+    "url": "TODO",
+    "tags": [
+      "designee",
+      "dpe",
+      "oversight",
+      "renewal",
+      "managing-specialist"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Volume 2 covers designee selection and appointment; the oversight and\nrenewal expectations that actually affect you sit later in the order.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2",
+    "title": "FSIMS Order 8900.1 Vol 5 Ch 2 \u2014 Airman Certification, Practical Tests",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "TODO",
+    "effective_date": "TODO",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "practical-test",
+      "examiner-conduct",
+      "disapproval",
+      "letter-of-discontinuance"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Catalogue individual volumes and chapters, not \"the 8900.\" The order is\nrevised per-chapter and a whole-document entry will always be wrong.\n",
+    "related": [
+      "acs-private-airplane",
+      "order-8000-95"
+    ]
+  },
+  {
+    "id": "pts-cfi-airplane",
+    "title": "Flight Instructor \u2013 Airplane Practical Test Standards",
+    "doc_number": "FAA-S-8081-6",
+    "type": "pts",
+    "status": "superseded",
+    "revision": "D",
+    "effective_date": "TODO",
+    "url": "TODO",
+    "tags": [
+      "cfi",
+      "legacy",
+      "superseded"
+    ],
+    "applies_to": [
+      "CFI-A"
+    ],
+    "notes": "Kept for applicants tested under the legacy standard and for tracing how\na task was worded before the ACS transition.\n",
+    "related": [
+      "acs-private-airplane"
+    ]
+  }
+]

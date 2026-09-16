@@ -1,0 +1,19 @@
+id: order-8900-1-vol5-ch2
+title: FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests
+doc_number: 8900.1
+type: order
+status: current
+revision: TODO
+effective_date: TODO
+source_url: https://drs.faa.gov/browse
+pdf_url:                  # DRS serves HTML per chapter, not a PDF
+mirror: false
+last_checked:
+tags: [practical-test, examiner-conduct, disapproval, letter-of-discontinuance]
+applies_to: [ALL]
+related: [acs-private-airplane, order-8000-95]
+check:
+  method: manual          # DRS is a single-page app; no documented public API
+notes: |
+  Catalogue individual volumes and chapters, not "the 8900." The order is
+  revised per-chapter and a whole-document entry will always be wrong.

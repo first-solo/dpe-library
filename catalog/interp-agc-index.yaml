@@ -1,0 +1,18 @@
+id: interp-agc-index
+title: FAA Chief Counsel Legal Interpretations (index)
+doc_number:
+type: interpretation
+status: current
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url:
+last_checked:
+tags: [legal-interpretation, chief-counsel, index]
+applies_to: [ALL]
+related: [order-8900-1-vol5-ch2]
+check:
+  method: list
+  pattern: 'href="([^"]+\.pdf)"'
+  seen_count:
+notes: |
+  Watcher entry, not a document. The list check flags when new
+  interpretations appear so individual ones can be catalogued.

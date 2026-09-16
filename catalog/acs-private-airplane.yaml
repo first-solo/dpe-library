@@ -1,0 +1,18 @@
+id: acs-private-airplane
+title: Private Pilot – Airplane Airman Certification Standards
+doc_number: FAA-S-ACS-6
+type: acs
+status: current
+revision: TODO            # verify current revision letter
+effective_date: TODO
+source_url: https://www.faa.gov/training_testing/testing/acs
+pdf_url: TODO             # direct PDF link from the ACS index page
+last_checked:
+tags: [acs, task-selection, discontinuance, retest, eligibility]
+applies_to: [PVT-ASEL, PVT-AMEL]
+related: [order-8900-1-vol5-ch2, pts-cfi-airplane]
+check:
+  method: scrape
+  pattern: 'FAA-S-ACS-6([A-Z])'
+notes: |
+  Appendix A holds the retest and discontinuance matrix.

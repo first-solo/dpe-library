@@ -1,0 +1,30 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Validate catalog and confirm generated files are current
+        env:
+          PYTHONPATH: scripts
+        run: python scripts/build.py --check
+      - name: Confirm no private overlay content is tracked
+        run: |
+          if git ls-files --error-unmatch private/ >/dev/null 2>&1; then
+            echo "private/ is tracked — the overlay must never be committed"
+            exit 1
+          fi
+          if grep -rn "private_notes" README.md site/ 2>/dev/null; then
+            echo "private content found in a tracked file"
+            exit 1
+          fi
+          echo "clean"

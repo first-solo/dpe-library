@@ -1,0 +1,10 @@
+# Private annotation overlay. Never tracked. Never published.
+private/
+
+# Fetched PDFs and any build output derived from the private overlay.
+local/
+
+# Housekeeping
+__pycache__/
+*.pyc
+.DS_Store
