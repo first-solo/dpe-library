@@ -8,3 +8,6 @@ local/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Personal Claude Code instructions, not shared.
+CLAUDE.local.md
