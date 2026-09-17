@@ -122,15 +122,29 @@ gitignored `local/` that does not exist on a fresh runner.
    references (`interprets: [61.129, 61.195]`). Proposed, not agreed. Raise it
    when the first real interpretations get catalogued rather than building it
    speculatively.
-3. **HTML output.** `build.py` should emit `local/index.html` (private, links
-   to `local/pdfs/`) and `site/index.html` (public, links to FAA). Client-side
-   search over the existing `index.json` using MiniSearch or Lunr from a CDN,
-   no backend. This was deferred, not rejected.
-4. **Full-text search.** `poppler-utils` is already in the image for
+3. **Local HTML view (private).** `build.py` emits `local/index.html`
+   alongside the existing markdown: a self-contained page opened by
+   double-clicking, no server. Links to FAA sources and to local copies in
+   `local/pdfs/`. Client-side search over the existing index using MiniSearch
+   or Lunr. Built from the merged catalog including the private overlay
+   (`load_catalog(private=True)`), so it lands only in gitignored `local/`.
+   No publishing decision involved — this is the day-to-day working surface.
+4. **Public HTML view (GitHub Pages).** Same generator, built public-only,
+   linking to FAA sources rather than local files. Two constraints to decide
+   before writing it.
+
+   Pages deploying from a branch can only serve the repo root or `/docs`, not
+   an arbitrary `site/` directory. So either rename `site/` to `docs/`, which
+   touches `dpelib.py`, the Makefile and both workflows, or deploy via Actions
+   with `upload-pages-artifact`, which can publish any directory. Prefer the
+   Actions route — the rename is wide and we already run workflows.
+
+   Enabling Pages also makes the content publicly readable regardless of repo
+   visibility. This item is blocked on the decision to publish, not on the
+   code; the repo stays private while the notes convention settles.
+5. **Full-text search.** `poppler-utils` is already in the image for
    `pdftotext`. Extract into per-document JSON loaded on demand — do not inline
    full text into the main index, it will not stay small.
-5. **GitHub Pages** once the public surface is worth publishing. The repo is
-   private for now; that's intentional while the notes convention settles.
 
 Smaller, not urgent:
 
