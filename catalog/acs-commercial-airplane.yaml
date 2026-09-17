@@ -23,9 +23,9 @@ related:
 - order-8900-1-vol5-ch2
 check:
   method: head
-notes: 'Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to
-
-  FAA-G-ACS-2 (Companion Guide) at revision C.'
+notes: |-
+  Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to
+  FAA-G-ACS-2 (Companion Guide) at revision C.
 http:
   etag: ''
   last_modified: Fri, 29 Mar 2024 15:43:38 GMT

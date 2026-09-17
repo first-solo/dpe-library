@@ -1,1 +1,4 @@
 PyYAML>=6.0
+# Round-trip YAML, used only by check_updates.py's writer so that catalog
+# comments and formatting survive an automated update. Readers stay on PyYAML.
+ruamel.yaml>=0.18,<0.19

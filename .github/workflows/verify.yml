@@ -17,6 +17,8 @@ jobs:
         env:
           PYTHONPATH: scripts
         run: python scripts/build.py --check
+      - name: Confirm the update writer preserves catalog formatting
+        run: python tests/test_apply_updates.py
       - name: Confirm no private overlay content is tracked
         run: |
           if git ls-files --error-unmatch private/ >/dev/null 2>&1; then

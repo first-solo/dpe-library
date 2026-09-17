@@ -18,8 +18,6 @@ check:
   method: list
   pattern: href="([^"]+\.pdf)"
   seen_count: 0
-notes: 'Watcher entry, not a document. The list check flags when new
-
+notes: |
+  Watcher entry, not a document. The list check flags when new
   interpretations appear so individual ones can be catalogued.
-
-  '
