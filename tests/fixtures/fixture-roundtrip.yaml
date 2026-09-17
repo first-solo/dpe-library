@@ -1,0 +1,58 @@
+# Fixture for the check_updates.py write test.
+#
+# Every formatting feature in this file is one that a yaml.safe_load /
+# yaml.safe_dump round-trip destroys silently. Do not "tidy" this file — the
+# awkward bits are the test. In particular it carries:
+#
+#   * comments on fields the checker writes to (sha256, http.last_modified)
+#   * comments on fields it does not write to (revision, check.pattern)
+#   * a notes: literal block scalar with indented content that must not reflow
+#   * empty-valued keys that must stay empty rather than becoming null
+#   * both list styles the catalog actually uses, block and flow
+#   * a quoted regex that must not lose its quotes
+#   * a source_url long enough to be wrapped by a default-width dumper
+#
+# Block sequences are written flat (`- acs` at column zero) because that is
+# what the catalog has on disk. ruamel sets sequence indent globally at dump
+# time rather than preserving it per file, so an indented list here would be
+# reformatted and the test would be asserting something no writer can hold.
+#
+id: fixture-roundtrip
+title: Roundtrip Fixture Document
+doc_number: FAA-X-FIXTURE-1
+type: acs
+status: current
+revision: C                # verify this against the FAA source before publishing
+effective_date: 2023-11-01
+
+# Landing page is stable. The direct PDF link is not yet confirmed.
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url:
+
+sha256:                    # written by check_updates.py — do not hand-edit
+
+tags:
+- acs
+- fixture
+applies_to: [PVT-ASEL, PVT-AMEL]
+related: []
+
+check:
+  method: list
+  # Counts interpretation entries on the yearly index page.
+  pattern: '([0-9]{4}-[0-9]+)'
+  seen_count: 12
+
+notes: |
+  Retest and discontinuance matrix is in Appendix A.
+  Eligibility check is Vol 5 Ch 2 Para 5-1234, which covers:
+    - the 60-day window
+    - the discontinuance letter
+  Trailing line, deliberately unwrapped so a reflow is obvious.
+
+http:
+  etag: ''
+  last_modified: Fri, 29 Mar 2024 15:44:59 GMT   # from the last HEAD request
+  content_length: '716798'
+
+last_checked: '2026-01-02'

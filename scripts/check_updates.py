@@ -30,12 +30,32 @@ import sys
 import urllib.error
 import urllib.request
 
-import yaml
+from ruamel.yaml import YAML
 
 import dpelib as L
 
 UA = "dpe-library/0.1 (personal reference index)"
 TIMEOUT = 45
+
+# Round-trip YAML, used only for writing. Catalog files carry `# verify this`
+# annotations during backfill, and a safe_load/safe_dump round-trip strips
+# every one of them without a word — along with reflowing block scalars and
+# turning empty values into explicit nulls. dpelib stays on PyYAML; it only
+# reads.
+#
+# The settings are not cosmetic. Each was checked against the real catalog:
+#   preserve_quotes  keeps '([0-9]{4}-[0-9]+)' quoted, since an unquoted regex
+#                    starting with a YAML indicator would not survive.
+#   indent(2, 2, 0)  matches what is on disk, so untouched list lines do not
+#                    move. ruamel sets sequence indent globally at dump time
+#                    rather than preserving it per file, so this has to agree
+#                    with the repo's style.
+#   width            defaults to 80, which wraps a long source_url onto a
+#                    continuation line. Catalog URLs routinely exceed that.
+_writer = YAML()
+_writer.preserve_quotes = True
+_writer.indent(mapping=2, sequence=2, offset=0)
+_writer.width = 4096
 
 
 def _open(url: str, method: str = "GET"):
@@ -95,16 +115,32 @@ def check_list(d: dict, url: str, pattern: str) -> tuple[str, dict]:
 
 
 def apply_updates(doc_id: str, updates: dict) -> None:
-    """Write the new values back into the catalog file, preserving the rest."""
+    """Write the new values back into the catalog file, preserving the rest.
+
+    The write surface is exactly `http`, `sha256`, `check.seen_count` and
+    `last_checked`. Every other byte of the file — comments, key order,
+    quoting, block scalars, empty values — comes out unchanged. See
+    tests/test_apply_updates.py, which fails if that stops being true.
+    """
     path = L.CATALOG / f"{doc_id}.yaml"
-    data = yaml.safe_load(path.read_text()) or {}
+    with path.open() as fh:
+        data = _writer.load(fh) or {}
+
     for k, v in updates.items():
         if isinstance(v, dict) and isinstance(data.get(k), dict):
+            # Merge into the existing node rather than replacing it, so a
+            # comment sitting on a sibling key survives.
             data[k].update(v)
         else:
             data[k] = v
+
+    # Stays a string. Written unquoted it would parse back as a datetime.date,
+    # which json.dumps refuses when build.py writes site/index.json — ruamel
+    # quotes date-shaped strings on its own, which is what keeps that honest.
     data["last_checked"] = dt.date.today().isoformat()
-    path.write_text(yaml.safe_dump(data, sort_keys=False, allow_unicode=True))
+
+    with path.open("w") as fh:
+        _writer.dump(data, fh)
 
 
 def main() -> int:
