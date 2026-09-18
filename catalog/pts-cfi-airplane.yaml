@@ -11,8 +11,8 @@ mirror: true              # superseded, worth freezing a copy
 last_checked:
 tags: [cfi, legacy, superseded]
 applies_to: [CFI-A]
-superseded_by: []         # add the ACS id once catalogued
-related: [acs-private-airplane]
+superseded_by: [acs-cfi-airplane]
+related: [acs-private-airplane, pts-cfi-instrument-airplane]
 check:
   method: manual
 notes: |

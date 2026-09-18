@@ -1,0 +1,22 @@
+id: acs-instrument-airplane
+title: Instrument Rating – Airplane Airman Certification Standards
+doc_number: FAA-S-ACS-8
+type: acs
+status: current
+revision: C
+effective_date: TODO
+source_url: https://www.faa.gov/training_testing/testing/acs
+pdf_url: https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf
+last_checked: '2026-09-18'
+tags: [acs, instrument, task-selection, discontinuance, retest, eligibility]
+applies_to: [IR-A]
+related: [acs-private-airplane, acs-commercial-airplane, acs-companion-guide-pilots, order-8900-1-vol5-ch2]
+check:
+  method: head
+notes: |
+  Revision letter is from the FAA ACS listing page, which shows FAA-S-ACS-8C.
+  Effective date still needs reading off the document itself.
+http:
+  etag: ''
+  last_modified: Fri, 29 Mar 2024 15:44:17 GMT
+  content_length: '549526'

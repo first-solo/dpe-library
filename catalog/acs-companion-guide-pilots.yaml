@@ -1,0 +1,23 @@
+id: acs-companion-guide-pilots
+title: Airman Certification Standards Companion Guide for Pilots
+doc_number: FAA-G-ACS-2
+type: acs
+status: current
+revision:                 # FAA lists it with Changes 1 and 2, not a letter
+effective_date: TODO
+source_url: https://www.faa.gov/training_testing/testing/acs
+pdf_url: https://www.faa.gov/training_testing/testing/acs/acs_companion_guide_pilots.pdf
+last_checked: '2026-09-18'
+tags: [acs, companion-guide, task-selection, discontinuance, retest, eligibility]
+applies_to: [ALL]
+related: [acs-private-airplane, acs-commercial-airplane, acs-instrument-airplane, acs-cfi-airplane, acs-atp-airplane]
+check:
+  method: head
+notes: |
+  Where the non-regulatory appendix material went when the ACS moved to
+  revision C. Look here first for test administration, task selection and
+  discontinuance guidance that older notes cite as an ACS appendix.
+http:
+  etag: ''
+  last_modified: Tue, 31 Dec 2024 16:40:54 GMT
+  content_length: '489586'

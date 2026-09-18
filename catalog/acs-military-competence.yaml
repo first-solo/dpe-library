@@ -1,0 +1,23 @@
+id: acs-military-competence
+title: Commercial Pilot – Military Competence Airman Certification Standards
+doc_number: FAA-S-ACS-12
+type: acs
+status: current
+revision:                 # FAA lists it as FAA-S-ACS-12 with no revision letter
+effective_date: TODO
+source_url: https://www.faa.gov/training_testing/testing/acs
+pdf_url: https://www.faa.gov/training_testing/testing/acs/mcn_acs.pdf
+last_checked: '2026-09-18'
+tags: [acs, military-competence, eligibility]
+applies_to: [COM-ASEL, COM-AMEL]
+related: [acs-commercial-airplane, acs-instrument-airplane, acs-companion-guide-pilots]
+check:
+  method: head
+notes: |
+  Standard for the military competence knowledge test route under 61.73.
+  Confirm against the document whether the applies_to list above is right —
+  it was inferred from the title, not read off the ACS.
+http:
+  etag: ''
+  last_modified: Thu, 20 Jun 2024 15:33:25 GMT
+  content_length: '174115'

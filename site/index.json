@@ -1,8 +1,64 @@
 [
   {
+    "id": "acs-atp-airplane",
+    "title": "Airline Transport Pilot and Type Rating for Airplane Category Airman Certification Standards",
+    "doc_number": "FAA-S-ACS-11",
+    "type": "acs",
+    "status": "current",
+    "revision": "A",
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf",
+    "tags": [
+      "acs",
+      "atp",
+      "type-rating",
+      "task-selection",
+      "discontinuance",
+      "retest",
+      "eligibility"
+    ],
+    "applies_to": [
+      "ATP"
+    ],
+    "notes": "Covers the type rating practical test as well as the ATP certificate, so it\napplies to type rating rides conducted outside an ATP context.\n",
+    "related": [
+      "acs-commercial-airplane",
+      "acs-companion-guide-pilots",
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "acs-cfi-airplane",
+    "title": "Flight Instructor for Airplane Category Airman Certification Standards",
+    "doc_number": "FAA-S-ACS-25",
+    "type": "acs",
+    "status": "current",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/training_testing/testing/acs/cfi_airplane_acs_25.pdf",
+    "tags": [
+      "acs",
+      "cfi",
+      "task-selection",
+      "discontinuance",
+      "retest",
+      "eligibility"
+    ],
+    "applies_to": [
+      "CFI-A"
+    ],
+    "notes": "Replaced FAA-S-8081-6 as the standard for the airplane flight instructor\npractical test. The instrument instructor test is not covered here \u2014 that\nis still a PTS, see pts-cfi-instrument-airplane.\n",
+    "related": [
+      "acs-private-airplane",
+      "acs-commercial-airplane",
+      "acs-companion-guide-pilots",
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
     "id": "acs-commercial-airplane",
     "title": "Commercial Pilot for Airplane Category Airman Certification Standards",
-    "doc_number": "FAA-S-ACS-6",
+    "doc_number": "FAA-S-ACS-7",
     "type": "acs",
     "status": "current",
     "revision": "B",
@@ -24,6 +80,88 @@
     "notes": "Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to\nFAA-G-ACS-2 (Companion Guide) at revision C.",
     "related": [
       "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "acs-companion-guide-pilots",
+    "title": "Airman Certification Standards Companion Guide for Pilots",
+    "doc_number": "FAA-G-ACS-2",
+    "type": "acs",
+    "status": "current",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/training_testing/testing/acs/acs_companion_guide_pilots.pdf",
+    "tags": [
+      "acs",
+      "companion-guide",
+      "task-selection",
+      "discontinuance",
+      "retest",
+      "eligibility"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Where the non-regulatory appendix material went when the ACS moved to\nrevision C. Look here first for test administration, task selection and\ndiscontinuance guidance that older notes cite as an ACS appendix.\n",
+    "related": [
+      "acs-private-airplane",
+      "acs-commercial-airplane",
+      "acs-instrument-airplane",
+      "acs-cfi-airplane",
+      "acs-atp-airplane"
+    ]
+  },
+  {
+    "id": "acs-instrument-airplane",
+    "title": "Instrument Rating \u2013 Airplane Airman Certification Standards",
+    "doc_number": "FAA-S-ACS-8",
+    "type": "acs",
+    "status": "current",
+    "revision": "C",
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf",
+    "tags": [
+      "acs",
+      "instrument",
+      "task-selection",
+      "discontinuance",
+      "retest",
+      "eligibility"
+    ],
+    "applies_to": [
+      "IR-A"
+    ],
+    "notes": "Revision letter is from the FAA ACS listing page, which shows FAA-S-ACS-8C.\nEffective date still needs reading off the document itself.\n",
+    "related": [
+      "acs-private-airplane",
+      "acs-commercial-airplane",
+      "acs-companion-guide-pilots",
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "acs-military-competence",
+    "title": "Commercial Pilot \u2013 Military Competence Airman Certification Standards",
+    "doc_number": "FAA-S-ACS-12",
+    "type": "acs",
+    "status": "current",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/training_testing/testing/acs/mcn_acs.pdf",
+    "tags": [
+      "acs",
+      "military-competence",
+      "eligibility"
+    ],
+    "applies_to": [
+      "COM-ASEL",
+      "COM-AMEL"
+    ],
+    "notes": "Standard for the military competence knowledge test route under 61.73.\nConfirm against the document whether the applies_to list above is right \u2014\nit was inferred from the title, not read off the ACS.\n",
+    "related": [
+      "acs-commercial-airplane",
+      "acs-instrument-airplane",
+      "acs-companion-guide-pilots"
     ]
   },
   {
@@ -142,7 +280,33 @@
     ],
     "notes": "Kept for applicants tested under the legacy standard and for tracing how\na task was worded before the ACS transition.\n",
     "related": [
-      "acs-private-airplane"
+      "acs-private-airplane",
+      "pts-cfi-instrument-airplane"
+    ]
+  },
+  {
+    "id": "pts-cfi-instrument-airplane",
+    "title": "Flight Instructor Instrument Practical Test Standards for Airplane Rating and Helicopter Rating",
+    "doc_number": "FAA-S-8081-9",
+    "type": "pts",
+    "status": "current",
+    "revision": "E",
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/training_testing/testing/acs/cfi_instrument_pts_9.pdf",
+    "tags": [
+      "pts",
+      "cfi",
+      "instrument",
+      "current-pts"
+    ],
+    "applies_to": [
+      "CFII-A"
+    ],
+    "notes": "Still a PTS and still current \u2014 there is no instrument instructor ACS for\nairplane, so a CFII ride runs against this rather than FAA-S-ACS-25.\nCovers the helicopter rating in the same document.\nThe HEAD response carries no Last-Modified, so the update check falls back\nto Content-Length alone.\n",
+    "related": [
+      "acs-cfi-airplane",
+      "acs-instrument-airplane",
+      "order-8900-1-vol5-ch2"
     ]
   }
 ]
