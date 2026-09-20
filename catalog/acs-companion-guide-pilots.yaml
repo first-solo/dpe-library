@@ -3,8 +3,8 @@ title: Airman Certification Standards Companion Guide for Pilots
 doc_number: FAA-G-ACS-2
 type: acs
 status: current
-revision:                 # FAA lists it with Changes 1 and 2, not a letter
-effective_date: TODO
+revision: 'Changes 1 & 2'   # no revision letter; the FAA tracks this one by change
+effective_date: 2024-12-26
 source_url: https://www.faa.gov/training_testing/testing/acs
 pdf_url: https://www.faa.gov/training_testing/testing/acs/acs_companion_guide_pilots.pdf
 last_checked: '2026-09-18'
@@ -17,6 +17,10 @@ notes: |
   Where the non-regulatory appendix material went when the ACS moved to
   revision C. Look here first for test administration, task selection and
   discontinuance guidance that older notes cite as an ACS appendix.
+  Dated by change rather than by revision letter: base November 2023,
+  Change 1 September 19 2024, Change 2 December 26 2024. effective_date
+  carries the Change 2 date, so it moves whenever a change is issued —
+  unlike the ACS entries, whose dates are fixed at the revision.
 http:
   etag: ''
   last_modified: Tue, 31 Dec 2024 16:40:54 GMT

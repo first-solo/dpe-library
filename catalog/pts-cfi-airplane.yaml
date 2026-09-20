@@ -4,7 +4,7 @@ doc_number: FAA-S-8081-6
 type: pts
 status: superseded
 revision: D
-effective_date: TODO
+effective_date: 2012-06-01   # per the FAA-S-ACS-25 revision history
 source_url: https://www.faa.gov/training_testing/testing
 pdf_url: TODO
 mirror: true              # superseded, worth freezing a copy
@@ -18,3 +18,7 @@ check:
 notes: |
   Kept for applicants tested under the legacy standard and for tracing how
   a task was worded before the ACS transition.
+  The document is off the FAA site, so the date above comes from the
+  FAA-S-ACS-25 revision history and foreword, both of which give the
+  superseded 8081-6D as June 2012. pdf_url stays unresolved for the same
+  reason — there is no upstream copy left to point at.

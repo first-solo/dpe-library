@@ -24,8 +24,9 @@ related:
 check:
   method: head
 notes: |-
-  Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to
-  FAA-G-ACS-2 (Companion Guide) at revision C.
+  Supersedes FAA-S-ACS-7A, Change 1. Non-regulatory appendix material moved
+  to FAA-G-ACS-2 (Companion Guide) at revision B — the 7B foreword carries
+  the same appendix-move language as 6C, in the same November 2023 wave.
 http:
   etag: ''
   last_modified: Fri, 29 Mar 2024 15:43:38 GMT

@@ -4,7 +4,7 @@ doc_number: FAA-S-ACS-8
 type: acs
 status: current
 revision: C
-effective_date: TODO
+effective_date: 2023-11-01
 source_url: https://www.faa.gov/training_testing/testing/acs
 pdf_url: https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf
 last_checked: '2026-09-18'
@@ -14,8 +14,7 @@ related: [acs-private-airplane, acs-commercial-airplane, acs-companion-guide-pil
 check:
   method: head
 notes: |
-  Revision letter is from the FAA ACS listing page, which shows FAA-S-ACS-8C.
-  Effective date still needs reading off the document itself.
+  Revision history on page ii lists FAA-S-ACS-8C as November 2023.
 http:
   etag: ''
   last_modified: Fri, 29 Mar 2024 15:44:17 GMT

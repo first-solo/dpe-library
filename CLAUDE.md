@@ -50,11 +50,15 @@ file, anything personal goes in `CLAUDE.local.md`, which is gitignored.
   exactly this reason, and `make test` fails if that regresses. Anything new
   that writes to `catalog/` has the same obligation — never `yaml.safe_dump`
   a catalog file.
-- **`last_checked` must stay a quoted string.** Written bare it parses back
-  as a `datetime.date`, and `json.dumps` rejects that when `build.py` writes
-  `site/index.json`. This currently holds because `ruamel` quotes date-shaped
-  strings on its own, not because anything enforces it — the round-trip test
-  checks the line is present, not that the value survives a build.
+- **Dates in YAML load as `datetime.date` unless quoted.** `build.py` is
+  already defended against this where it matters: `effective_date` reaches
+  `site/index.json` but is coerced with `str()` first, so writing it bare is
+  safe. `last_checked` never reaches the index at all — `build.py` does not
+  read it. So a bare date breaks nothing today, and the exposure is to future
+  consumers rather than the current build. `ruamel` quotes date-shaped
+  strings on its own, so `check_updates.py` keeps `last_checked` a string
+  without being asked; nothing enforces that, and `make test` would not catch
+  it changing.
 - **Never resolve a `TODO` by guessing.** Revision letters, effective dates,
   and PDF URLs must come from the FAA source or from the owner. A plausible
   wrong date here is worse than a visible gap — this material governs real

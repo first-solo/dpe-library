@@ -7,7 +7,7 @@ local copies into `local/`.
 **Nothing in this repository is authoritative.** Always confirm currency
 against the FAA source before relying on a document.
 
-Generated 2026-09-18 · 12 documents
+Generated 2026-09-19 · 12 documents
 
 ## Contents
 
@@ -37,37 +37,46 @@ Generated 2026-09-18 · 12 documents
 ## Airman Certification Standards
 
 - [Airline Transport Pilot and Type Rating for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/atp_airplane_acs_11.pdf)
-  `FAA-S-ACS-11` · Rev A · TODO
+  `FAA-S-ACS-11` · Rev A · 2023-11-01
   `acs` `atp` `type-rating` `task-selection` `discontinuance` `retest` `eligibility`
   > Covers the type rating practical test as well as the ATP certificate, so it
   > applies to type rating rides conducted outside an ATP context.
   See also: `acs-commercial-airplane`, `acs-companion-guide-pilots`, `order-8900-1-vol5-ch2`
 
 - [Airman Certification Standards Companion Guide for Pilots](https://www.faa.gov/training_testing/testing/acs/acs_companion_guide_pilots.pdf)
-  `FAA-G-ACS-2` · TODO
+  `FAA-G-ACS-2` · Rev Changes 1 & 2 · 2024-12-26
   `acs` `companion-guide` `task-selection` `discontinuance` `retest` `eligibility`
   > Where the non-regulatory appendix material went when the ACS moved to
   > revision C. Look here first for test administration, task selection and
   > discontinuance guidance that older notes cite as an ACS appendix.
+  > Dated by change rather than by revision letter: base November 2023,
+  > Change 1 September 19 2024, Change 2 December 26 2024. effective_date
+  > carries the Change 2 date, so it moves whenever a change is issued —
+  > unlike the ACS entries, whose dates are fixed at the revision.
   See also: `acs-private-airplane`, `acs-commercial-airplane`, `acs-instrument-airplane`, `acs-cfi-airplane`, `acs-atp-airplane`
 
 - [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf)
   `FAA-S-ACS-7` · Rev B · 2023-11-01
   `acs` `task-selection` `discontinuance` `retest` `eligibility`
-  > Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to
-  > FAA-G-ACS-2 (Companion Guide) at revision C.
+  > Supersedes FAA-S-ACS-7A, Change 1. Non-regulatory appendix material moved
+  > to FAA-G-ACS-2 (Companion Guide) at revision B — the 7B foreword carries
+  > the same appendix-move language as 6C, in the same November 2023 wave.
   See also: `order-8900-1-vol5-ch2`
 
 - [Commercial Pilot – Military Competence Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/mcn_acs.pdf)
-  `FAA-S-ACS-12` · TODO
+  `FAA-S-ACS-12` · 2018-10-15
   `acs` `military-competence` `eligibility`
   > Standard for the military competence knowledge test route under 61.73.
+  > Publication and effective dates differ here, unlike the rest of the ACS
+  > set: the revision history gives August 2018, while the Availability page
+  > says the material "will be effective October 15, 2018." The later date is
+  > what effective_date carries.
   > Confirm against the document whether the applies_to list above is right —
   > it was inferred from the title, not read off the ACS.
   See also: `acs-commercial-airplane`, `acs-instrument-airplane`, `acs-companion-guide-pilots`
 
 - [Flight Instructor for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/cfi_airplane_acs_25.pdf)
-  `FAA-S-ACS-25` · TODO
+  `FAA-S-ACS-25` · 2023-11-01
   `acs` `cfi` `task-selection` `discontinuance` `retest` `eligibility`
   > Replaced FAA-S-8081-6 as the standard for the airplane flight instructor
   > practical test. The instrument instructor test is not covered here — that
@@ -75,10 +84,9 @@ Generated 2026-09-18 · 12 documents
   See also: `acs-private-airplane`, `acs-commercial-airplane`, `acs-companion-guide-pilots`, `order-8900-1-vol5-ch2`
 
 - [Instrument Rating – Airplane Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf)
-  `FAA-S-ACS-8` · Rev C · TODO
+  `FAA-S-ACS-8` · Rev C · 2023-11-01
   `acs` `instrument` `task-selection` `discontinuance` `retest` `eligibility`
-  > Revision letter is from the FAA ACS listing page, which shows FAA-S-ACS-8C.
-  > Effective date still needs reading off the document itself.
+  > Revision history on page ii lists FAA-S-ACS-8C as November 2023.
   See also: `acs-private-airplane`, `acs-commercial-airplane`, `acs-companion-guide-pilots`, `order-8900-1-vol5-ch2`
 
 - [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf)
@@ -91,7 +99,7 @@ Generated 2026-09-18 · 12 documents
 ## Practical Test Standards
 
 - [Flight Instructor Instrument Practical Test Standards for Airplane Rating and Helicopter Rating](https://www.faa.gov/training_testing/testing/acs/cfi_instrument_pts_9.pdf)
-  `FAA-S-8081-9` · Rev E · TODO
+  `FAA-S-8081-9` · Rev E · 2023-11-01
   `pts` `cfi` `instrument` `current-pts`
   > Still a PTS and still current — there is no instrument instructor ACS for
   > airplane, so a CFII ride runs against this rather than FAA-S-ACS-25.
@@ -101,10 +109,14 @@ Generated 2026-09-18 · 12 documents
   See also: `acs-cfi-airplane`, `acs-instrument-airplane`, `order-8900-1-vol5-ch2`
 
 - [Flight Instructor – Airplane Practical Test Standards](TODO) *(superseded)*
-  `FAA-S-8081-6` · Rev D · TODO
+  `FAA-S-8081-6` · Rev D · 2012-06-01
   `cfi` `legacy` `superseded`
   > Kept for applicants tested under the legacy standard and for tracing how
   > a task was worded before the ACS transition.
+  > The document is off the FAA site, so the date above comes from the
+  > FAA-S-ACS-25 revision history and foreword, both of which give the
+  > superseded 8081-6D as June 2012. pdf_url stays unresolved for the same
+  > reason — there is no upstream copy left to point at.
   See also: `acs-private-airplane`, `pts-cfi-instrument-airplane`
 
 ## Legal Interpretations
@@ -163,16 +175,9 @@ Generated 2026-09-18 · 12 documents
 
 ## Needs verification
 
-- acs-atp-airplane.yaml: effective_date needs verification
-- acs-cfi-airplane.yaml: effective_date needs verification
-- acs-companion-guide-pilots.yaml: effective_date needs verification
-- acs-instrument-airplane.yaml: effective_date needs verification
-- acs-military-competence.yaml: effective_date needs verification
 - order-8000-95.yaml: revision needs verification
 - order-8000-95.yaml: effective_date needs verification
 - order-8000-95.yaml: pdf_url needs verification
 - order-8900-1-vol5-ch2.yaml: revision needs verification
 - order-8900-1-vol5-ch2.yaml: effective_date needs verification
-- pts-cfi-airplane.yaml: effective_date needs verification
 - pts-cfi-airplane.yaml: pdf_url needs verification
-- pts-cfi-instrument-airplane.yaml: effective_date needs verification
