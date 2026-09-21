@@ -7,7 +7,7 @@ local copies into `local/`.
 **Nothing in this repository is authoritative.** Always confirm currency
 against the FAA source before relying on a document.
 
-Generated 2026-09-17 · 6 documents
+Generated 2026-09-21 · 6 documents
 
 ## Contents
 
