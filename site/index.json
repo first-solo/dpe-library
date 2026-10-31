@@ -24,7 +24,8 @@
     "notes": "Supersedes FAA-S-ACS-7A. Non-regulatory appendix material moved to\nFAA-G-ACS-2 (Companion Guide) at revision C.",
     "related": [
       "order-8900-1-vol5-ch2"
-    ]
+    ],
+    "interprets": []
   },
   {
     "id": "acs-private-airplane",
@@ -51,7 +52,8 @@
     "notes": "Supersedes FAA-S-ACS-6B. Non-regulatory appendix material moved to\nFAA-G-ACS-2 (Companion Guide) at revision C.",
     "related": [
       "order-8900-1-vol5-ch2"
-    ]
+    ],
+    "interprets": []
   },
   {
     "id": "interp-agc-index",
@@ -73,7 +75,8 @@
     "notes": "Watcher entry, not a document. The list check flags when new\ninterpretations appear so individual ones can be catalogued.\n",
     "related": [
       "order-8900-1-vol5-ch2"
-    ]
+    ],
+    "interprets": []
   },
   {
     "id": "order-8000-95",
@@ -97,7 +100,8 @@
     "notes": "Volume 2 covers designee selection and appointment; the oversight and\nrenewal expectations that actually affect you sit later in the order.\n",
     "related": [
       "order-8900-1-vol5-ch2"
-    ]
+    ],
+    "interprets": []
   },
   {
     "id": "order-8900-1-vol5-ch2",
@@ -121,7 +125,8 @@
     "related": [
       "acs-private-airplane",
       "order-8000-95"
-    ]
+    ],
+    "interprets": []
   },
   {
     "id": "pts-cfi-airplane",
@@ -143,6 +148,7 @@
     "notes": "Kept for applicants tested under the legacy standard and for tracing how\na task was worded before the ACS transition.\n",
     "related": [
       "acs-private-airplane"
-    ]
+    ],
+    "interprets": []
   }
 ]

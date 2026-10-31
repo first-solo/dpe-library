@@ -59,6 +59,8 @@ def entry_line(d: dict, show_private: bool) -> list[str]:
     lines = [f"- {label}{STATUS_MARK.get(d.get('status'), '')}"]
     if meta:
         lines.append(f"  {meta}")
+    if d.get("interprets"):
+        lines.append("  Interprets: " + ", ".join(f"§ {r}" for r in d["interprets"]))
     if d.get("tags"):
         lines.append("  " + " ".join(f"`{t}`" for t in d["tags"]))
     if d.get("notes"):
@@ -109,6 +111,9 @@ def render_readme(docs: list[dict], show_private: bool, todos: list[str]) -> str
     for key in TYPE_LABEL:
         if key in grouped:
             out.append(f"- [{TYPE_LABEL[key]}](#{TYPE_LABEL[key].lower().replace(' ', '-')})")
+    regs = L.regulation_index(docs)
+    if regs:
+        out.append("- [By regulation](#by-regulation)")
     out += ["- [By certificate](#by-certificate)", "- [By tag](#by-tag)", ""]
 
     for key, label in TYPE_LABEL.items():
@@ -118,6 +123,26 @@ def render_readme(docs: list[dict], show_private: bool, todos: list[str]) -> str
         for d in grouped[key]:
             out += entry_line(d, show_private)
             out.append("")
+
+    if regs:
+        out += [
+            "## By regulation",
+            "",
+            "Legal interpretations grouped by the 14 CFR section they interpret.",
+            "Paragraphs after the dash are the specific provisions each letter cites.",
+            "",
+        ]
+        for sec, items in regs.items():
+            out.append(f"- **§ {sec}**")
+            for d, paras in items:
+                url = L.doc_link(d)
+                title = d.get("title", d.get("id"))
+                label = f"[{title}]({url})" if url else title
+                date = d.get("effective_date")
+                when = f" · {date}" if date and "TODO" not in str(date) else ""
+                cites = f" — {', '.join(p[len(sec):] for p in paras)}" if paras else ""
+                out.append(f"  - {label}{when}{cites}")
+        out.append("")
 
     out += ["## By certificate", ""]
     for cert, items in L.applies_index(docs).items():
@@ -155,6 +180,7 @@ def search_index(docs: list[dict], show_private: bool) -> list[dict]:
             "applies_to": d.get("applies_to") or [],
             "notes": d.get("notes") or "",
             "related": d.get("related") or [],
+            "interprets": d.get("interprets") or [],
         }
         if show_private:
             row["private_notes"] = d.get("private_notes") or ""

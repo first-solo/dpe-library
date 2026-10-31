@@ -36,6 +36,12 @@ STATUSES = ["current", "superseded", "historical", "unknown"]
 
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
+# A 14 CFR citation in `interprets:`. Part.section, then any paragraph
+# designators: 61.51(e)(1)(i), 1.1, 91.213(d)(2). Appendices have no section
+# number, so they are written as "141 Appendix B". No "14 CFR" prefix and no
+# "§": every entry is Title 14, and the prefix only invites inconsistency.
+CFR_RE = re.compile(r"^(\d+\.\d+[a-z]?(\([a-zA-Z0-9]+\))*|\d+ Appendix [A-Z]+)$")
+
 
 def _deep_merge(base: dict, over: dict) -> dict:
     """Overlay wins. Dicts merge recursively; lists and scalars replace.
@@ -110,6 +116,18 @@ def validate(docs: list[dict]) -> tuple[list[str], list[str]]:
                 if ref not in ids:
                     errors.append(f"{name}: {field} points at unknown id '{ref}'")
 
+        interprets = d.get("interprets")
+        if interprets is not None:
+            if not isinstance(interprets, list):
+                errors.append(f"{name}: interprets must be a list")
+            else:
+                for ref in interprets:
+                    if not CFR_RE.match(str(ref)):
+                        errors.append(
+                            f"{name}: interprets entry '{ref}' is not a 14 CFR "
+                            "citation like 61.51(e)(1)(i)"
+                        )
+
         for key, val in d.items():
             if isinstance(val, str) and "TODO" in val:
                 todos.append(f"{name}: {key} needs verification")
@@ -136,6 +154,41 @@ def tag_index(docs: list[dict]) -> dict[str, list[dict]]:
         for tag in d.get("tags") or []:
             out.setdefault(tag, []).append(d)
     return dict(sorted(out.items()))
+
+
+def cfr_section(ref: str) -> str:
+    """61.51(e)(1)(i) -> 61.51. Appendix citations are their own section."""
+    return str(ref).split("(", 1)[0]
+
+
+def _cfr_sort_key(section: str) -> tuple:
+    head = section.split(" ", 1)[0]
+    part, _, sec = head.partition(".")
+    num = re.match(r"\d+", sec or "")
+    return (int(part), sec == "", int(num.group()) if num else 0, section)
+
+
+def regulation_index(docs: list[dict]) -> dict[str, list[tuple[dict, list[str]]]]:
+    """Section -> [(doc, [the paragraphs it cites in that section])].
+
+    Grouped at section level (61.51, not 61.51(e)(1)(i)) because that is how
+    you look something up; the paragraphs ride along so the index still says
+    which part of the section a letter is about.
+    """
+    out: dict[str, dict[str, tuple[dict, list[str]]]] = {}
+    for d in docs:
+        for ref in d.get("interprets") or []:
+            sec = cfr_section(ref)
+            bucket = out.setdefault(sec, {})
+            entry = bucket.setdefault(d["id"], (d, []))
+            if str(ref) != sec:
+                entry[1].append(str(ref))
+    result = {}
+    for sec in sorted(out, key=_cfr_sort_key):
+        items = sorted(out[sec].values(),
+                       key=lambda e: (str(e[0].get("effective_date") or ""), e[0]["id"]))
+        result[sec] = items
+    return result
 
 
 def applies_index(docs: list[dict]) -> dict[str, list[dict]]:

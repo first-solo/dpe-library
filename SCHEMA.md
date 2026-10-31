@@ -24,12 +24,41 @@ One YAML file per document in `catalog/`. The filename stem must equal the
 | `applies_to` | | Certificates and ratings: `PVT-ASEL`, `CFI-A`, `ATP`, `ALL`. |
 | `related` | | Other IDs. Validated; a dangling reference fails the build. |
 | `supersedes` / `superseded_by` | | Other IDs. Also validated. |
+| `interprets` | | 14 CFR citations a legal interpretation construes: `61.51(e)(1)(i)`, `1.1`, `141 Appendix B`. No `14 CFR` or `§` prefix. Validated for shape; drives the "By regulation" index. |
 | `notes` | | **Public.** See the rule below. |
 | `check` | | How the update checker handles this entry. |
 
 Any string field containing `TODO` is reported under "Needs verification" in
 the generated README rather than failing the build, so an entry can be stubbed
 now and completed later.
+
+## Legal interpretations
+
+Chief Counsel letters have no document number, so they follow their own
+conventions:
+
+- **`id`** is `interp-<requester surname>-<year>`, with `-2`, `-3` for a
+  second or third letter to the same person in the same year. This mirrors the
+  FAA's own file naming (`Grannis-2_2016_Legal_Interpretation.pdf`). Year is
+  the year on the FAA file, which is normally the letter's year.
+- **`title`** is `Legal Interpretation to <requester as addressed>`, with the
+  organisation in parentheses when the letter names one. Memoranda to Flight
+  Standards say so in the title.
+- **`effective_date`** is the date on the letter. Many date stamps are hard to
+  read in the scans. When the stamp is partly illegible but other FAA letters
+  cite the date, the date is recorded with a `# verify this` comment naming the
+  citing letters. When nothing settles it, the field is `TODO` with a comment
+  saying what the stamp shows.
+- **`status`** starts as `unknown`. Interpretations get withdrawn or rescinded
+  (`interp-carty-2022` rescinds two), and a letter should only be marked
+  `current` once someone has checked it against the FAA database.
+- **`interprets`** lists the provisions the letter actually construes, at the
+  paragraph level the letter uses. It is the useful cross-reference for this
+  type; `related` is kept for letters that cite each other.
+- **`notes`** state the question the letter answers, not the answer. The
+  holding is the letter's to state.
+- **`check`** is `manual`. A letter does not change once issued; what changes
+  is whether it is still in effect, which no automated check here can see.
 
 ## The notes rule
 
