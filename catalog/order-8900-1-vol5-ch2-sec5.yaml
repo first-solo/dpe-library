@@ -1,0 +1,23 @@
+id: order-8900-1-vol5-ch2-sec5
+title: "Order 8900.1 Vol 5 Ch 2 Sec 5 — Miscellaneous 14 CFR Part 61 Certification Information"
+doc_number: 8900.1
+type: order
+status: current
+revision: CHG 998
+effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
+source_url: https://drs.faa.gov/browse
+pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
+mirror: false
+last_checked:
+tags: [8900-1, vol5-ch2, english-language, fstd, type-rating, sfar-41, certificate-replacement, surrender, lost-logbooks, 61-64-limitation]
+applies_to: [ALL]
+related: [order-8900-1-vol5-ch2]
+check:
+  method: manual            # DRS is a single-page app; no documented public API
+notes: |
+  Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
+  Paras 5-311 through 5-324. FSTD use under § 61.58 and § 61.45 in 5-312 and
+  5-313, English language requirements 5-314, hearing- and speech-impaired
+  limitations 5-315, type rating requirements 5-317, SFAR 41 5-318, amendment
+  and replacement of certificates 5-319, voluntary surrender 5-320, deceased
+  airman 5-321, lost logbooks 5-322, removal of the § 61.64 limitation 5-324.

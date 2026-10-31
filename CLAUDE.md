@@ -84,9 +84,11 @@ for the one writer that touches catalog files; scripts also run directly with
 
 ## Domain pitfalls
 
-- **Order 8900.1 is not a document.** It's revised per volume and chapter in
-  DRS. Catalog specific chapters (`order-8900-1-vol5-ch2`), never the order as
-  a whole.
+- **Order 8900.1 is not a document.** It's revised per section, and sections
+  of one chapter sit on different CHG numbers. Catalog sections
+  (`order-8900-1-vol5-ch2-sec7`), each with its own `revision: CHG nnn`. A
+  chapter entry (`order-8900-1-vol5-ch2`) is an index with no revision of its
+  own. Never catalog the order as a whole.
 - **DRS has no documented public API.** Its SPA is backed by JSON endpoints
   visible in devtools, which would work and would break without warning.
   DRS-sourced entries are `check: {method: manual}` until the owner decides

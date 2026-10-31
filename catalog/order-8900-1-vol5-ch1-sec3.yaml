@@ -1,0 +1,20 @@
+id: order-8900-1-vol5-ch1-sec3
+title: "Order 8900.1 Vol 5 Ch 1 Sec 3 — Phases of Certification"
+doc_number: 8900.1
+type: order
+status: current
+revision: CHG 997
+effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
+source_url: https://drs.faa.gov/browse
+pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
+mirror: false
+last_checked:
+tags: [8900-1, vol5-ch1, certification-process, 8710-1, iacra, identity-verification, oral-test, flight-test]
+applies_to: [ALL]
+check:
+  method: manual            # DRS is a single-page app; no documented public API
+notes: |
+  Vol 5 Ch 1: Direction, Guidance, and Procedures for Title 14 CFR Parts 121/135 and General Aviation.
+  Paras 5-51 through 5-58. 8710-1 review is 5-53, 8400-3 review is 5-54,
+  applicant identity verification is 5-55, drug convictions is 5-56. 5-57 and
+  5-58 cover the oral and flight test phases for Parts 121 and 135.

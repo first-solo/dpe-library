@@ -1,0 +1,25 @@
+id: order-8900-1-vol5-ch2-sec1
+title: "Order 8900.1 Vol 5 Ch 2 Sec 1 — General"
+doc_number: 8900.1
+type: order
+status: current
+revision: CHG 998
+effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
+source_url: https://drs.faa.gov/browse
+pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
+mirror: false
+last_checked:
+tags: [8900-1, vol5-ch2, practical-test, plan-of-action, briefings, aircraft-limitations, soda, combination-test, discontinuance, retest]
+applies_to: [ALL]
+related: [order-8900-1-vol5-ch2, acs-private-airplane, acs-commercial-airplane]
+check:
+  method: manual            # DRS is a single-page app; no documented public API
+notes: |
+  Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
+  Paras 5-216 through 5-223. Certification process and SODA in 5-218
+  (SODA at 5-218F). Aircraft, equipment, limitations, and FSTDs in 5-219.
+  SRM evaluation in 5-220. Plan of action in 5-221: PTS-based tests at B,
+  ACS-based tests at C, worked ACS example at D, designee location at E.
+  Pretest, preflight, and postflight briefings in 5-222. Combination practical
+  tests in 5-223, including discontinuance (H), disapproval notice (I), and
+  retest after failure (K).
