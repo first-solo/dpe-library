@@ -1,11 +1,11 @@
 id: interp-van-zanen-2009
 title: 'Legal Interpretation to Dwight B. Van Zanen'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: TODO  # verify this: stamp reads "DEC 1_ 2009" with a digit missing; issued with Glenn and Hilliard
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.1(b)(3)(ii)'
@@ -22,3 +22,5 @@ check:
 notes: |
   Whether a pilot may choose how to divide legs into separate flights when
   logging cross-country time.
+mirror: true
+sha256: 8a91920d8f181f6185f40ba71cf5793b77c1666e6365b6b9685dfc10df12de1d

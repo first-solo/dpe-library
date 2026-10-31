@@ -1,11 +1,11 @@
 id: interp-bennett-2016
 title: 'Legal Interpretation to Chris Bennett (Southern California Soaring Academy)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2016-04-27'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.31(d)'
@@ -28,3 +28,5 @@ notes: |
   category, whether a § 61.87 student endorsement may be used instead of
   § 61.31(d), and whether limits can be written into a § 61.31(d) endorsement.
   Includes the requester's email and sample glider endorsements.
+mirror: true
+sha256: 91e0a20676dbdc41202723dcf48507693212332442b882efc7b0d650c89873d0

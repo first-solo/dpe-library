@@ -1,11 +1,11 @@
 id: interp-omara-2012
 title: 'Legal Interpretation to Mr. O''Mara'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2012-07-05'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.109(j)'
@@ -23,3 +23,5 @@ check:
 notes: |
   Which § 61.109(j) weight-shift-control experience must be in a WSC aircraft
   when adding the rating to an existing private certificate.
+mirror: true
+sha256: 0705954698bdb0330b7a73878592338944a4ea3410f2dc248e58c11544013185

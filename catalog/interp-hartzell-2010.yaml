@@ -1,13 +1,13 @@
 id: interp-hartzell-2010
 title: 'Legal Interpretation to Kristine Hartzell (AOPA)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 # verify this date: the letter is undated; Oord (2018) and Theriault (2011) both
 # cite it as Dec. 17, 2010.
 effective_date: '2010-12-17'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.129(c)(3)(i)'
@@ -27,3 +27,5 @@ check:
 notes: |
   Clarifies the Oct. 8, 2010 Theriault letter on whether instrument rating
   training satisfies the commercial instrument aeronautical experience.
+mirror: true
+sha256: 4d506d64d563862dd8ed3d1e99769d6786d319feebf2ee16e585b3516c1738eb

@@ -1,11 +1,11 @@
 id: interp-theriault-2011
 title: 'Legal Interpretation to Richard Theriault'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2011-07-06'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.129(c)(3)(i)'
@@ -27,3 +27,5 @@ notes: |
   Follow-up to the Oct. 8, 2010 Theriault letter: devices usable for the
   § 61.129(c)(3)(i) hours, and whether a part 135 company instructor without a
   CFI is an authorized instructor for logbook entries and the 8710.
+mirror: true
+sha256: ac08ec5d7afa79164112aee9fb455b62d74a7602cfb8742b50fa6085f2e3bbef

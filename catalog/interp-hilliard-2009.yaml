@@ -1,11 +1,11 @@
 id: interp-hilliard-2009
 title: 'Legal Interpretation to James Hilliard'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: TODO  # verify this: stamp reads "DEC 1_ 2009" with a digit missing; issued with Glenn and Van Zanen
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.65(d)'
@@ -24,3 +24,5 @@ check:
 notes: |
   Whether two pilots who split a flight at the controls may each log
   cross-country time toward § 61.65(d).
+mirror: true
+sha256: 9e83b09ad98833cf3538d6b3f57aa6620619c7dadb9aab24a63927abb71fff1a

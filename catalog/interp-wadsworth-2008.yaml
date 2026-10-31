@@ -1,11 +1,11 @@
 id: interp-wadsworth-2008
 title: 'Legal Interpretation to Troy M. Wadsworth (National Pilot Academy)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2008-09-12'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.195(h)'
@@ -19,3 +19,5 @@ check:
 notes: |
   Whether an initial CFI applicant may get "right seat proficient" with a
   junior instructor before training with a § 61.195(h) instructor.
+mirror: true
+sha256: 860c2e2e48499fb386439c35c1a062fc7f18374c69175b401c4df35004df2abb

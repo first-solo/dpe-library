@@ -1,11 +1,11 @@
 id: interp-williams-2018-2
 title: 'Legal Interpretation to Stephen J. Williams'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2018-09-25'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.3(e)'
@@ -25,3 +25,5 @@ check:
 notes: |
   Whether a gyroplane may be flown under IFR or below VFR minimums without an
   instrument rating. Includes the request letter.
+mirror: true
+sha256: d5bd7753fa3edd6cbd6334a9ad3d8050628d3c69d2f312e864141f0b6729589a

@@ -1,11 +1,11 @@
 id: interp-murphy-2009
 title: 'Legal Interpretation to Daniel Murphy'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2009-06-30'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '91.126(b)(1)'
@@ -29,3 +29,5 @@ notes: |
   Right turns on a circling approach at a Class G airport, logging PIC on a
   practical test, and how far an approach must be flown to count for
   currency and the instrument rating.
+mirror: true
+sha256: f5943e62263e265222fc88edf8bc154e0e7607e80cc2ec4957296ce995ba0cee

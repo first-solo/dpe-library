@@ -1,11 +1,11 @@
 id: interp-gebhart-2009
 title: 'Legal Interpretation to Jeff Gebhart'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2009-06-22'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.51(e)'
@@ -23,3 +23,5 @@ check:
 notes: |
   PIC and cross-country logging for a pilot under the hood and the safety
   pilot acting as PIC on a 187 nm flight.
+mirror: true
+sha256: e89f4a00e3ae6463530431a461e2931a0a6a19d878e646d1a48b6724deda1c9f

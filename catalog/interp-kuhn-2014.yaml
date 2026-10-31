@@ -1,11 +1,11 @@
 id: interp-kuhn-2014
 title: 'Legal Interpretation to Jared Kuhn'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2014-02-20'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.129(a)(4)'
@@ -24,3 +24,5 @@ check:
 notes: |
   How the CFI and the applicant log time spent performing PIC duties with an
   instructor under § 61.129(a)(4), and who must act as PIC.
+mirror: true
+sha256: a040a2967b7a43f3d576151583071454e7fc953bc6b8613c2c31bc1188efc72d

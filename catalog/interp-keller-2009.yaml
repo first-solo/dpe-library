@@ -1,11 +1,11 @@
 id: interp-keller-2009
 title: 'Legal Interpretation to Terrence K. Keller Jr.'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2009-09-08'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.109(a)(5)(ii)'
@@ -21,3 +21,5 @@ check:
 notes: |
   Whether the private long solo cross-country must also meet the § 61.1
   cross-country definition, worked through a three-airport example.
+mirror: true
+sha256: a47cbe25118d3110f4181c0c47f8b28e721bcab752014eb17820745163d17397

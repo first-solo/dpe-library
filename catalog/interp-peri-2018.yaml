@@ -1,11 +1,11 @@
 id: interp-peri-2018
 title: 'Legal Interpretation to Richard A. Peri (Aircraft Electronics Association)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2018-06-13'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '91.405(c)'
@@ -21,3 +21,5 @@ check:
 notes: |
   Meaning of "inspected" in § 91.405(c) for equipment left inoperative under
   § 91.213(d). Includes the AEA request.
+mirror: true
+sha256: cea3b63cae87782092d6dfd6f73c37211aa79e22b1052448f8b0f5ab11d69125

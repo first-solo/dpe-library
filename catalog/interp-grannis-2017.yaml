@@ -1,11 +1,11 @@
 id: interp-grannis-2017
 title: 'Legal Interpretation to William W. Grannis'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2017-08-03'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '119.1(e)(1)'
@@ -28,3 +28,5 @@ notes: |
   Meaning of "student instruction" and "training flights" in § 119.1(e),
   and how discovery, introductory and demonstration flights fit the
   exceptions, including the air tour LOA route.
+mirror: true
+sha256: b25d82caf17159e33b497245f074ecc839bddceb7db8aa9b3af6d767a016927f

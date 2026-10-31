@@ -1,11 +1,11 @@
 id: interp-mclellan-2015
 title: 'Legal Interpretation to Bryan McLellan'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2015-06-05'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.129(c)'
@@ -24,3 +24,5 @@ notes: |
   Whether a commercial helicopter rating can be sought without a private
   helicopter rating, whether commercial-level training logged before adding
   the private rating still counts, and the 20 hours for a category add-on.
+mirror: true
+sha256: 48e567d9160ed65a86b5e497249ad2838df62e2f5602dcacf592c8bc88287878

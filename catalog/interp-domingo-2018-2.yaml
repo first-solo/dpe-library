@@ -1,11 +1,11 @@
 id: interp-domingo-2018-2
 title: 'Chief Counsel Memorandum to Ricardo Domingo, AFX-1: 14 CFR 67.401(f)(4)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2018-10-12'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '67.401(f)(4)'
@@ -21,3 +21,5 @@ notes: |
   Whether an unexpired special-issuance Authorization can be withdrawn for not
   providing medical information after the underlying medical certificate has
   expired, and the effect on BasicMed eligibility. Includes the AFS request memo.
+mirror: true
+sha256: 57fa0f4920c631e1793f20ffc4dd26025f30feb2898fe4e71462336092e04f4a

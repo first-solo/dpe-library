@@ -1,13 +1,13 @@
 id: interp-walker-2011
 title: 'Legal Interpretation to Keith E. Walker'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 # verify this date: the year on the stamp is unreadable ("DEC 14 20__"); the request
 # was dated Aug. 11, 2011.
 effective_date: '2011-12-14'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.51(e)'
@@ -26,3 +26,5 @@ check:
 notes: |
   Whether a non-instrument-rated pilot flying in IMC may log PIC and actual
   instrument time while an instrument-rated pilot acts as PIC.
+mirror: true
+sha256: de44c62e7476f35e9b686a79ff23ae32b0505312aaf6e27c86cf4a19b30c9ed2

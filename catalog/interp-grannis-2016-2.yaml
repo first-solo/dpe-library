@@ -1,11 +1,11 @@
 id: interp-grannis-2016-2
 title: 'Legal Interpretation to William Grannis'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2016-06-30'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.1(b)(3)'
@@ -21,3 +21,5 @@ notes: |
   Whether cross-country time is logged as airborne time or as "flight time"
   under § 1.1. Includes the request letter, which raises examiners
   discounting cross-country time.
+mirror: true
+sha256: 90a0edb78212df661aa2f65c6d8744393e976723db5ffdb0f0350498fb82db2f

@@ -7,8 +7,10 @@ Copies the file to mirror/<id>.pdf, and sets `mirror: true` and `sha256` on
 the catalog entry. Everything else in the entry is left as it was.
 
 This is for documents with no stable direct download: DRS exports above all
-(8900.1 sections, 8000.95), plus superseded PTSs and pulled interpretations.
-Anything fetch.py can pull from a pdf_url stays out of the repo.
+(8900.1 sections, 8000.95), plus superseded PTSs and legal interpretations.
+Anything fetch.py can pull from a verified pdf_url stays out of the repo; a
+document the owner supplies with no recorded link is mirrored instead of
+leaving pdf_url as a TODO.
 
 Replacing a copy is allowed and expected when a new change is published; the
 old one stays in git history. `build.py --check` fails if a mirrored file no

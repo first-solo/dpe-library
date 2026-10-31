@@ -64,14 +64,19 @@ file, anything personal goes in `CLAUDE.local.md`, which is gitignored.
 - **PDFs that can be re-fetched are not committed.** `fetch.py` pulls anything
   with a working `pdf_url` into gitignored `local/pdfs/`. The exception is
   `mirror: true`, for documents with no stable download: DRS exports above all
-  (8900.1 sections, 8000.95), plus superseded PTSs and pulled interpretations.
+  (8900.1 sections, 8000.95), plus superseded PTSs and legal interpretations.
   On DRS the exported file, not the link, is the thing that is hard to get
   again. Add one with `make mirror ID=<id> FILE=<path>` (`scripts/mirror.py`),
   which copies it to `mirror/<id>.pdf` and records `mirror: true` and
   `sha256`. `build.py --check` fails if a copy drifts from its hash or if a
   file in `mirror/` has no entry. Don't mirror faa.gov PDFs that `fetch.py`
   can reach — the repo publishes curation, not copies of freely available
-  files. Mirrored files are US government works, so there is no rights issue,
+  files. "Can reach" means a verified `pdf_url` is recorded. When the owner
+  supplies a copy of something with no recorded link, mirror the copy rather
+  than leave a `pdf_url: TODO` to be hunted down later; that is how the 59
+  legal interpretations are held. Their FAA links are not needed and are not
+  tracked as gaps, and a link that is verified later can sit alongside the
+  copy without replacing it. Mirrored files are US government works, so there is no rights issue,
   but every replaced copy stays in history: mirror a new change when it is
   published, not on every re-export.
 - **Commit catalog entries in batches**, not one commit per document.
@@ -135,10 +140,10 @@ gitignored `local/` that does not exist on a fresh runner.
    met six documents; expect it to need changes. Annotating stubs with
    `# verify this` is safe now that the writer preserves comments.
 2. **Finish the legal interpretations.** 59 Chief Counsel letters are
-   catalogued with `interprets:` citations, all `status: unknown` with
-   `pdf_url: TODO`. Remaining: record the direct faa.gov PDF links, resolve the
-   dates marked `TODO` or `# verify this`, and mark each letter `current` only
-   after checking it against the FAA database. Legal interpretations also
+   catalogued with `interprets:` citations and mirrored in `mirror/`, all
+   `status: unknown`. Remaining: resolve the dates marked `TODO` or
+   `# verify this` (the mirrored scans are the source to check against), and
+   mark each letter `current` only after checking it against the FAA database. Legal interpretations also
    respond to rule changes after the letter (BasicMed in 2017, and the part 61
    amendments since), so "not withdrawn" is not the same as "still accurate".
 3. **Local HTML view (private).** `build.py` emits `local/index.html`
