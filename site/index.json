@@ -1655,9 +1655,9 @@
     "doc_number": 8000.95,
     "type": "order",
     "status": "current",
-    "revision": "TODO",
+    "revision": "E",
     "effective_date": "TODO",
-    "url": "https://drs.faa.gov/browse",
+    "url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001",
     "tags": [
       "designee",
       "dpe",
@@ -1668,7 +1668,7 @@
     "applies_to": [
       "ALL"
     ],
-    "notes": "Volume 2 covers designee selection and appointment; the oversight and\nrenewal expectations that actually affect you sit later in the order.\n",
+    "notes": "Revision E cancels 8000.95D (dated January 21, 2025). Ten volumes:\nVol 1 is common policy for all AVS designees (application, oversight,\nannual extension, termination, suspension); Vol 3 is the DPE, SAE and\nAdmin PE policy. Vol 1 Ch 1 para 7 lists the changes by volume.\n",
     "related": [
       "order-8900-1-vol5-ch2"
     ],

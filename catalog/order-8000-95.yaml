@@ -3,16 +3,18 @@ title: Designee Management Policy
 doc_number: 8000.95
 type: order
 status: current
-revision: TODO
-effective_date: TODO
-source_url: https://drs.faa.gov/browse
-pdf_url: TODO
+revision: E
+effective_date: TODO   # blank on the text extraction's cover; read it from the PDF or DRS
+source_url: https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001
+pdf_url:                # DRS viewer link only; mirror the export once the PDF is uploaded
 last_checked:
 tags: [designee, dpe, oversight, renewal, managing-specialist]
 applies_to: [ALL]
 related: [order-8900-1-vol5-ch2]
 check:
-  method: head
+  method: manual        # DRS is a single-page app; no documented public API
 notes: |
-  Volume 2 covers designee selection and appointment; the oversight and
-  renewal expectations that actually affect you sit later in the order.
+  Revision E cancels 8000.95D (dated January 21, 2025). Ten volumes:
+  Vol 1 is common policy for all AVS designees (application, oversight,
+  annual extension, termination, suspension); Vol 3 is the DPE, SAE and
+  Admin PE policy. Vol 1 Ch 1 para 7 lists the changes by volume.
