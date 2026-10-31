@@ -7,7 +7,7 @@ revision: CHG 998
 effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch2, flight-instructor, practical-test, reinstatement, task]
 applies_to: [CFI]
@@ -17,3 +17,4 @@ check:
 notes: |
   Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
   Paras 5-496 through 5-511, in the standard task layout.
+sha256: 2bafbaa72ac5775577da74554bdfb17cd595c8435207afb85ad04a7d661d28f7

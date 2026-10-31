@@ -1,13 +1,14 @@
 IMAGE := dpe-library
 RUN := docker run --rm -v "$(CURDIR)":/work -w /work $(IMAGE)
 
-.PHONY: help image build check test fetch updates updates-write shell clean
+.PHONY: help image build check test fetch mirror updates updates-write shell clean
 
 help:
 	@echo "make build          regenerate README.md, site/index.json, and local/ private view"
 	@echo "make check          validate the catalog and confirm tracked output is current"
 	@echo "make test           confirm the update writer preserves catalog formatting"
 	@echo "make fetch          download PDFs into local/pdfs/ (gitignored)"
+	@echo "make mirror ID=<id> FILE=<path>  keep a tracked copy of a DRS export or other hard-to-find PDF"
 	@echo "make updates        check every entry against its upstream source"
 	@echo "make updates-write  same, and write new hashes and last_checked into the catalog"
 	@echo "make shell          drop into the container"
@@ -23,9 +24,16 @@ check: image
 
 test: image
 	$(RUN) python tests/test_apply_updates.py
+	$(RUN) python tests/test_mirror.py
 
 fetch: image
 	$(RUN) python scripts/fetch.py
+
+# FILE must sit inside the repo, since only the repo is mounted into the
+# container. Drop the export anywhere gitignored (local/ works) first.
+mirror: image
+	$(RUN) python scripts/mirror.py add $(ID) $(FILE)
+	$(MAKE) build
 
 updates: image
 	$(RUN) python scripts/check_updates.py

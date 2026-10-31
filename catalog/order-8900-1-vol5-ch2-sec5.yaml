@@ -7,7 +7,7 @@ revision: CHG 998
 effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch2, english-language, fstd, type-rating, sfar-41, certificate-replacement, surrender, lost-logbooks, 61-64-limitation]
 applies_to: [ALL]
@@ -21,3 +21,4 @@ notes: |
   limitations 5-315, type rating requirements 5-317, SFAR 41 5-318, amendment
   and replacement of certificates 5-319, voluntary surrender 5-320, deceased
   airman 5-321, lost logbooks 5-322, removal of the § 61.64 limitation 5-324.
+sha256: 14a11dbab916577fc93ae74f4d835c8ca035186acce641c51da90aa6fa285fa0

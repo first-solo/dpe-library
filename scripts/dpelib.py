@@ -11,6 +11,7 @@ Two hard rules live in this file:
 from __future__ import annotations
 
 import copy
+import hashlib
 import pathlib
 import re
 import sys
@@ -22,6 +23,7 @@ CATALOG = ROOT / "catalog"
 PRIVATE = ROOT / "private"
 SITE = ROOT / "site"
 LOCAL = ROOT / "local"
+MIRROR = ROOT / "mirror"
 
 # Fields every entry must carry. TODO is tolerated and reported, not fatal,
 # so you can stub an entry now and verify the volatile fields later.
@@ -132,7 +134,31 @@ def validate(docs: list[dict]) -> tuple[list[str], list[str]]:
             if isinstance(val, str) and "TODO" in val:
                 todos.append(f"{name}: {key} needs verification")
 
+        if d.get("mirror"):
+            copy_path = mirror_path(d)
+            if not copy_path.exists():
+                todos.append(f"{name}: mirror is true but mirror/{copy_path.name} is missing")
+            elif not d.get("sha256"):
+                errors.append(f"{name}: mirror/{copy_path.name} has no sha256 in the catalog")
+            elif sha256_file(copy_path) != d["sha256"]:
+                errors.append(f"{name}: mirror/{copy_path.name} does not match its catalog sha256")
+
+    # A copy with no entry claiming it is either a typo or a leftover.
+    if MIRROR.exists():
+        claimed = {mirror_path(d).name for d in docs if d.get("mirror")}
+        for f in sorted(MIRROR.iterdir()):
+            if f.is_file() and f.name not in claimed:
+                errors.append(f"mirror/{f.name}: no catalog entry with mirror: true claims it")
+
     return errors, todos
+
+
+def mirror_path(d: dict) -> pathlib.Path:
+    return MIRROR / f"{d.get('id')}.pdf"
+
+
+def sha256_file(path: pathlib.Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def warn(msg: str) -> None:
@@ -205,12 +231,17 @@ def applies_index(docs: list[dict]) -> dict[str, list[dict]]:
 
 
 def doc_link(d: dict) -> str:
-    """Prefer the direct file, fall back to the landing page.
+    """Prefer the direct file, then the tracked mirror copy, then the landing page.
 
+    The mirror link is repo-relative, so it resolves from README.md on GitHub.
     A stubbed `TODO` is not a link; skip it rather than rendering one.
     """
-    for key in ("pdf_url", "source_url"):
-        val = d.get(key)
-        if val and "TODO" not in str(val):
-            return val
+    val = d.get("pdf_url")
+    if val and "TODO" not in str(val):
+        return val
+    if d.get("mirror") and mirror_path(d).exists():
+        return f"mirror/{mirror_path(d).name}"
+    val = d.get("source_url")
+    if val and "TODO" not in str(val):
+        return val
     return ""

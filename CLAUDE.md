@@ -61,10 +61,19 @@ file, anything personal goes in `CLAUDE.local.md`, which is gitignored.
   practical tests.
 - **A dangling `related:` / `supersedes:` reference is fatal.** Keeps the
   cross-reference graph honest as the catalog grows.
-- **PDFs are not committed.** `fetch.py` pulls them into gitignored
-  `local/pdfs/`. The exception is `mirror: true`, for documents genuinely hard
-  to find upstream (superseded PTSs, pulled interpretations). Don't change this
-  default — the repo publishes curation, not copies of freely available files.
+- **PDFs that can be re-fetched are not committed.** `fetch.py` pulls anything
+  with a working `pdf_url` into gitignored `local/pdfs/`. The exception is
+  `mirror: true`, for documents with no stable download: DRS exports above all
+  (8900.1 sections, 8000.95), plus superseded PTSs and pulled interpretations.
+  On DRS the exported file, not the link, is the thing that is hard to get
+  again. Add one with `make mirror ID=<id> FILE=<path>` (`scripts/mirror.py`),
+  which copies it to `mirror/<id>.pdf` and records `mirror: true` and
+  `sha256`. `build.py --check` fails if a copy drifts from its hash or if a
+  file in `mirror/` has no entry. Don't mirror faa.gov PDFs that `fetch.py`
+  can reach — the repo publishes curation, not copies of freely available
+  files. Mirrored files are US government works, so there is no rights issue,
+  but every replaced copy stays in history: mirror a new change when it is
+  published, not on every re-export.
 - **Commit catalog entries in batches**, not one commit per document.
 
 ## Commands
@@ -72,7 +81,8 @@ file, anything personal goes in `CLAUDE.local.md`, which is gitignored.
 `make build` regenerates tracked output plus the private view in `local/`.
 `make check` is the CI gate: validates and fails if tracked output is stale.
 `make test` runs `tests/test_apply_updates.py`, which fails if the update
-checker's writer starts reformatting catalog files. `make fetch` downloads
+checker's writer starts reformatting catalog files, and `tests/test_mirror.py`.
+All writes to `catalog/` go through `scripts/catalog_writer.py`. `make fetch` downloads
 PDFs. `make updates` checks upstream; `make updates-write` also records hashes
 and `last_checked`. CI runs `check` and `test` on every push.
 

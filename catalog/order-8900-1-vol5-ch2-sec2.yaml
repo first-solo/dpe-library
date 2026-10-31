@@ -7,7 +7,7 @@ revision: CHG 0
 effective_date: 2007-09-13       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch2, special-emphasis, simulated-engine-failure, collision-avoidance, instrument-skills]
 applies_to: [ALL]
@@ -19,3 +19,4 @@ notes: |
   Paras 5-236 through 5-240. Simulated power failure dangers 5-237, scan
   program 5-238, position reporting and collision avoidance 5-239, instrument
   flying skills 5-240. Still at the original CHG 0 text.
+sha256: 2cf68dfd004de3ac881f47a4789ba59fd2a4a4e30e498f25b2b7a1abbfb8d214
