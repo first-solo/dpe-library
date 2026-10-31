@@ -1,0 +1,19 @@
+id: order-8900-1-vol5-ch2-sec9
+title: "Order 8900.1 Vol 5 Ch 2 Sec 9 — Conduct an Instrument Rating Certification"
+doc_number: 8900.1
+type: order
+status: current
+revision: CHG 997
+effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
+source_url: https://drs.faa.gov/browse
+pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
+mirror: false
+last_checked:
+tags: [8900-1, vol5-ch2, instrument-rating, practical-test, task]
+applies_to: [IR]
+related: [order-8900-1-vol5-ch2]
+check:
+  method: manual            # DRS is a single-page app; no documented public API
+notes: |
+  Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
+  Paras 5-431 through 5-448, in the standard task layout.

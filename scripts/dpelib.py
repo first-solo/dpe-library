@@ -144,8 +144,13 @@ def by_type(docs: list[dict]) -> dict[str, list[dict]]:
     for d in docs:
         out.setdefault(d.get("type", "other"), []).append(d)
     for v in out.values():
-        v.sort(key=lambda d: d.get("title", ""))
+        v.sort(key=lambda d: _natural_key(d.get("title", "")))
     return out
+
+
+def _natural_key(text: str) -> list:
+    """Sort "Sec 2" before "Sec 11" without disturbing plain titles."""
+    return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", text)]
 
 
 def tag_index(docs: list[dict]) -> dict[str, list[dict]]:
