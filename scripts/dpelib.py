@@ -147,5 +147,12 @@ def applies_index(docs: list[dict]) -> dict[str, list[dict]]:
 
 
 def doc_link(d: dict) -> str:
-    """Prefer the direct file, fall back to the landing page."""
-    return d.get("pdf_url") or d.get("source_url") or ""
+    """Prefer the direct file, fall back to the landing page.
+
+    A stubbed `TODO` is not a link; skip it rather than rendering one.
+    """
+    for key in ("pdf_url", "source_url"):
+        val = d.get(key)
+        if val and "TODO" not in str(val):
+            return val
+    return ""

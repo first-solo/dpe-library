@@ -45,11 +45,46 @@ jobs:
           # failure and should stop the run rather than open an empty PR.
           if [ "$rc" -ne 0 ] && [ "$rc" -ne 2 ]; then exit "$rc"; fi
 
+          { echo '```'; cat local/report.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      # A flagged entry (CHANGED, ERROR, PATTERN MISSED) often writes nothing
+      # to the catalog, so the pull request step alone would let it pass
+      # silently. One standing issue carries every flagged run, and closes
+      # itself the first time a run comes back clean.
+      - name: Report flagged entries in an issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RC: ${{ steps.check.outputs.rc }}
+          TITLE: 'Upstream check needs attention'
+        run: |
+          {
+            echo "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo
+            echo '```'
+            cat local/report.txt
+            echo '```'
+          } > local/issue.md
+
+          num=$(gh issue list --state open --search "in:title \"$TITLE\"" \
+                  --json number,title --jq "map(select(.title == \"$TITLE\")) | .[0].number // empty")
+
+          if [ "$RC" = "2" ]; then
+            if [ -n "$num" ]; then
+              gh issue comment "$num" --body-file local/issue.md
+            else
+              gh issue create --title "$TITLE" --body-file local/issue.md
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "Clean run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          fi
+
       - name: Rebuild generated files
         env:
           PYTHONPATH: scripts
         run: python scripts/build.py
 
+      # Opens only when --write changed a tracked file. The README carries no
+      # build date, so an unchanged catalog produces no diff and this no-ops.
       - name: Open a pull request if anything moved
         uses: peter-evans/create-pull-request@v8
         with:

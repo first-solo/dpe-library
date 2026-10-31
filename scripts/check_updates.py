@@ -17,6 +17,7 @@ Each entry declares how it should be checked:
 
 Exit code 0 means nothing changed. 2 means something did, which is what the
 scheduled workflow keys on when deciding whether to open an issue.
+A PR is opened separately, only when --write actually changed a file.
 """
 
 from __future__ import annotations
@@ -106,8 +107,13 @@ def check_list(d: dict, url: str, pattern: str) -> tuple[str, dict]:
     with _open(url) as r:
         html = r.read().decode("utf-8", "replace")
     count = len(set(re.findall(pattern, html)))
+    if count == 0:
+        # An index page with no matches means the pattern or the page layout
+        # is wrong, not that the list is empty. Recording 0 as a baseline
+        # would report "unchanged" forever.
+        return "PATTERN MISSED (0 matches; source layout may have changed)", {}
     prev = (d.get("check") or {}).get("seen_count")
-    if prev is None:
+    if not prev:
         return f"baseline {count} entries", {"check": {"seen_count": count}}
     if count != prev:
         return f"CHANGED {prev} -> {count} entries", {"check": {"seen_count": count}}

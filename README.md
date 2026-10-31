@@ -7,7 +7,7 @@ local copies into `local/`.
 **Nothing in this repository is authoritative.** Always confirm currency
 against the FAA source before relying on a document.
 
-Generated 2026-09-17 · 6 documents
+6 documents
 
 ## Contents
 
@@ -20,7 +20,7 @@ Generated 2026-09-17 · 6 documents
 
 ## Orders
 
-- [Designee Management Policy](TODO)
+- [Designee Management Policy](https://drs.faa.gov/browse)
   `8000.95` · Rev TODO · TODO
   `designee` `dpe` `oversight` `renewal` `managing-specialist`
   > Volume 2 covers designee selection and appointment; the oversight and
@@ -52,7 +52,7 @@ Generated 2026-09-17 · 6 documents
 
 ## Practical Test Standards
 
-- [Flight Instructor – Airplane Practical Test Standards](TODO) *(superseded)*
+- [Flight Instructor – Airplane Practical Test Standards](https://www.faa.gov/training_testing/testing) *(superseded)*
   `FAA-S-8081-6` · Rev D · TODO
   `cfi` `legacy` `superseded`
   > Kept for applicants tested under the legacy standard and for tracing how
@@ -69,8 +69,8 @@ Generated 2026-09-17 · 6 documents
 
 ## By certificate
 
-- **ALL** — [FAA Chief Counsel Legal Interpretations (index)](https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations), [Designee Management Policy](TODO), [FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests](https://drs.faa.gov/browse)
-- **CFI-A** — [Flight Instructor – Airplane Practical Test Standards](TODO)
+- **ALL** — [FAA Chief Counsel Legal Interpretations (index)](https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations), [Designee Management Policy](https://drs.faa.gov/browse), [FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests](https://drs.faa.gov/browse)
+- **CFI-A** — [Flight Instructor – Airplane Practical Test Standards](https://www.faa.gov/training_testing/testing)
 - **COM-AMEL** — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf)
 - **COM-AMES** — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf)
 - **COM-ASEL** — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf)
@@ -83,24 +83,24 @@ Generated 2026-09-17 · 6 documents
 ## By tag
 
 - `acs` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf)
-- `cfi` — [Flight Instructor – Airplane Practical Test Standards](TODO)
+- `cfi` — [Flight Instructor – Airplane Practical Test Standards](https://www.faa.gov/training_testing/testing)
 - `chief-counsel` — [FAA Chief Counsel Legal Interpretations (index)](https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations)
-- `designee` — [Designee Management Policy](TODO)
+- `designee` — [Designee Management Policy](https://drs.faa.gov/browse)
 - `disapproval` — [FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests](https://drs.faa.gov/browse)
 - `discontinuance` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf)
-- `dpe` — [Designee Management Policy](TODO)
+- `dpe` — [Designee Management Policy](https://drs.faa.gov/browse)
 - `eligibility` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf)
 - `examiner-conduct` — [FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests](https://drs.faa.gov/browse)
 - `index` — [FAA Chief Counsel Legal Interpretations (index)](https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations)
-- `legacy` — [Flight Instructor – Airplane Practical Test Standards](TODO)
+- `legacy` — [Flight Instructor – Airplane Practical Test Standards](https://www.faa.gov/training_testing/testing)
 - `legal-interpretation` — [FAA Chief Counsel Legal Interpretations (index)](https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations)
 - `letter-of-discontinuance` — [FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests](https://drs.faa.gov/browse)
-- `managing-specialist` — [Designee Management Policy](TODO)
-- `oversight` — [Designee Management Policy](TODO)
+- `managing-specialist` — [Designee Management Policy](https://drs.faa.gov/browse)
+- `oversight` — [Designee Management Policy](https://drs.faa.gov/browse)
 - `practical-test` — [FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests](https://drs.faa.gov/browse)
-- `renewal` — [Designee Management Policy](TODO)
+- `renewal` — [Designee Management Policy](https://drs.faa.gov/browse)
 - `retest` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf)
-- `superseded` — [Flight Instructor – Airplane Practical Test Standards](TODO)
+- `superseded` — [Flight Instructor – Airplane Practical Test Standards](https://www.faa.gov/training_testing/testing)
 - `task-selection` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf)
 
 ## Needs verification
