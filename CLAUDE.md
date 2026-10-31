@@ -148,9 +148,16 @@ gitignored `local/` that does not exist on a fresh runner.
 
 Smaller, not urgent:
 
-- The `rc` output of the `check-updates` workflow is correct now but unused;
-  the pull request step runs unconditionally and `create-pull-request` no-ops
-  when there is nothing to commit. Gate on it only if that stops being true.
+- The `check-updates` workflow reports through a single standing issue,
+  "Upstream check needs attention": commented on every flagged run (rc=2),
+  closed on the first clean one. The pull request step runs unconditionally
+  and relies on `create-pull-request` no-oping when nothing changed, which
+  holds only because the tracked README carries no build date. Never put a
+  date or anything else time-varying back into tracked output; it makes
+  `make check` fail on every later day and makes every run open a PR.
+- A `list` or `scrape` check that matches nothing is `PATTERN MISSED`, not a
+  count of zero. `interp-agc-index` currently does this — its pattern has
+  never matched the real page — and needs fixing against the live page.
 - The `rc=2` path of that workflow is still unexercised — it needs a real FAA
   document to move. Expect the first genuine drift to be the test.
 

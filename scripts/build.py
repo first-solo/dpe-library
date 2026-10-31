@@ -75,7 +75,13 @@ def entry_line(d: dict, show_private: bool) -> list[str]:
 
 
 def render_readme(docs: list[dict], show_private: bool, todos: list[str]) -> str:
-    stamp = dt.date.today().isoformat()
+    # The tracked README carries no build date. `--check` compares a fresh
+    # render against the file on disk, so a date here made CI fail on every
+    # day after the last build, and made every scheduled run commit a change.
+    # The private view is never checked, so it keeps the stamp.
+    generated = f"{len(docs)} documents"
+    if show_private:
+        generated = f"Generated {dt.date.today().isoformat()} · {generated}"
     out = [
         "# DPE Reference Library",
         "",
@@ -86,7 +92,7 @@ def render_readme(docs: list[dict], show_private: bool, todos: list[str]) -> str
         "**Nothing in this repository is authoritative.** Always confirm currency",
         "against the FAA source before relying on a document.",
         "",
-        f"Generated {stamp} · {len(docs)} documents",
+        generated,
         "",
     ]
 

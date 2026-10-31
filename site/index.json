@@ -83,7 +83,7 @@
     "status": "current",
     "revision": "TODO",
     "effective_date": "TODO",
-    "url": "TODO",
+    "url": "https://drs.faa.gov/browse",
     "tags": [
       "designee",
       "dpe",
@@ -131,7 +131,7 @@
     "status": "superseded",
     "revision": "D",
     "effective_date": "TODO",
-    "url": "TODO",
+    "url": "https://www.faa.gov/training_testing/testing",
     "tags": [
       "cfi",
       "legacy",
