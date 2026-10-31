@@ -1,11 +1,11 @@
 id: interp-greenwood-2015
 title: 'Legal Interpretation to Stephen R. Greenwood (Fly By Knight)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2015-10-09'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '91.409(b)'
@@ -23,3 +23,5 @@ notes: |
   instruction and rental, the 10-hour en-route allowance, and whether an
   annual resets the 100-hour clock. Corrects and strikes the Oct. 1, 2014
   letter to the same requester.
+mirror: true
+sha256: 617d3971feb129bdda76df6d8cac32240b632ca3b711f4440c24a0d8d63aef69

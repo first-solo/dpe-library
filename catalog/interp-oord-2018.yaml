@@ -1,11 +1,11 @@
 id: interp-oord-2018
 title: 'Legal Interpretation to David J. Oord (AOPA)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2018-08-02'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.129(c)(3)(i)'
@@ -27,3 +27,5 @@ notes: |
   Reconciles Theriault (2010, 2011), Hartzell (2010) and Jablecki (2016) on
   counting instrument-rating training toward § 61.129 and states they remain
   in effect. Includes the AFS-810 inquiry.
+mirror: true
+sha256: 853eaf8d7c667fa58c8b90f0efa2638bdb7bb5ff6d53abad0bd90716a7729d8d

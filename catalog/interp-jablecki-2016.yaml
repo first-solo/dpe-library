@@ -1,11 +1,11 @@
 id: interp-jablecki-2016
 title: 'Legal Interpretation to Joseph S. Jablecki'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2016-06-30'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.129(c)(3)(i)'
@@ -25,3 +25,5 @@ notes: |
   Whether the CFI giving the five hours of helicopter control by reference to
   instruments under § 61.129(c)(3)(i) needs an instrument rating on the
   flight instructor certificate.
+mirror: true
+sha256: aabb79ae2d953723444245d5fa6adef668331f7d8ded43ff520e43b10153f876

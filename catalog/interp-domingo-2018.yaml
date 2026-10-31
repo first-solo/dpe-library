@@ -1,11 +1,11 @@
 id: interp-domingo-2018
 title: 'Chief Counsel Memorandum to Ricardo Domingo, AFX-1: 14 CFR 61.109(a)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2018-07-19'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.109(a)'
@@ -22,3 +22,5 @@ notes: |
   Whether the 20 hours of dual and 10 hours of solo in § 61.109(a) must be in a
   single-engine airplane and include the (a)(1)-(5) training. Requested by
   Flight Standards; includes the AFS-800 request memo.
+mirror: true
+sha256: c403a78969f3d185c0f4f5a4ff4d2ce725cd7ec475d3634aa9935c954f644097

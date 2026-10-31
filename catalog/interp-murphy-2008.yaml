@@ -1,11 +1,11 @@
 id: interp-murphy-2008
 title: 'Legal Interpretation to Daniel Murphy'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2008-12-22'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.23(a)(3)'
@@ -30,3 +30,5 @@ notes: |
   above a cloud layer, what counts as a logbook, introductory flights under
   § 119.1(e)(1), and shoulder harness during taxi. Withdraws the 1991 Gandy
   and Rubin interpretations.
+mirror: true
+sha256: f4685c8d513171661a349c4aca060a5c7518c66015f63a2fef3a719e6224ae79

@@ -1,11 +1,11 @@
 id: interp-murphy-2015
 title: 'Legal Interpretation to Daniel Murphy'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2015-03-04'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '91.126(b)(1)'
@@ -27,3 +27,5 @@ notes: |
   AIM right-turn pattern entry versus § 91.126 (refers to Krug 2014 and
   Gossman 2011), logging PIC while using the autopilot, and double-logging
   PIC and SIC.
+mirror: true
+sha256: 20152f4bb2e68fcdad5222cc20f988da2e77c91bde432ec183dc00c7ce380e90

@@ -1,11 +1,11 @@
 id: interp-asp-2015
 title: 'Legal Interpretation to Peter H. Asp'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2015-07-28'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.129(h)(4)'
@@ -25,3 +25,5 @@ notes: |
   certificate, whether the commercial knowledge test can be taken first, and
   how the two § 61.129(h)(4) solo-flight provisions fit together. Corrects
   and strikes the May 12, 2015 letter to the same requester.
+mirror: true
+sha256: 3a4010a2de035aa4d156bc2a4d9f827c83fa7e4daf9cbf348c3f4d0b9eb06e51

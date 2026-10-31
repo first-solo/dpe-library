@@ -1,11 +1,11 @@
 id: interp-newman-2015
 title: 'Legal Interpretation to Richard L. Newman'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2015-07-28'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.56(c)'
@@ -25,3 +25,5 @@ notes: |
   Whether a flight review may be split between two instructors, and whether a
   certificated pilot needs a current flight review to solo while training for
   a glider rating.
+mirror: true
+sha256: acbc14e300a52adb27577f6c3a3dc68f13a9818a113f5cda7b220e7ed70a9308

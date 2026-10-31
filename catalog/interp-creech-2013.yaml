@@ -1,11 +1,11 @@
 id: interp-creech-2013
 title: 'Legal Interpretation to Mr. Creech'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2013-08-08'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.51(e)'
@@ -26,3 +26,5 @@ check:
 notes: |
   Who logs PIC and SIC when one pilot flies under a view-limiting device and
   the other is safety pilot, depending on which one acts as PIC.
+mirror: true
+sha256: 4e5d3676f4490a18f4415a951be3ca8cd5476c60f2e3f9ec13419035aac51fdd

@@ -1,11 +1,11 @@
 id: interp-ragland-2015-2
 title: 'Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2015-07-22'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.49(a)'
@@ -24,3 +24,5 @@ check:
 notes: |
   Meaning of "necessary training" in § 61.49(a)(1) after a failed practical
   test, and who decides what retraining is required.
+mirror: true
+sha256: 86c9777fac7564c7211ac59f145641eac9c6551c73cd2cf0e15bb4da2c4f6c75

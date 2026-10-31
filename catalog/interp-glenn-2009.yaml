@@ -1,11 +1,11 @@
 id: interp-glenn-2009
 title: 'Legal Interpretation to Ted Louis Glenn'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: TODO  # verify this: stamp reads "DEC 1_ 2009" with a digit missing; issued with Hilliard and Van Zanen
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.1(b)(3)'
@@ -35,3 +35,5 @@ notes: |
   Seven scenarios on logging PIC, SIC and cross-country time across safety
   pilot, part 135 and part 121 crews, and shared flying; plus whether a
   repositioning flight changes the original point of departure.
+mirror: true
+sha256: 81fef4cabaa75905a76d2dfe63be1a23fae01252215441ff535cc8608ee9bdd8

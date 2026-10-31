@@ -1,11 +1,11 @@
 id: interp-grayson-2010
 title: 'Legal Interpretation to Taylor Grayson'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2010-01-04'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.31(e)'
@@ -29,3 +29,5 @@ notes: |
   Whether the § 61.31(e)-(j) additional training and endorsements are
   "ratings limitations" that § 61.31(l)(2) waives for student pilots and
   practical test applicants.
+mirror: true
+sha256: 836e71dbc7ea01daba1d4dc3fe9be0095ab75999fcea68ab709cc6dc2d97916f

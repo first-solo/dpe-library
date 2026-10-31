@@ -1,11 +1,11 @@
 id: interp-dean-2013
 title: 'Legal Interpretation to Ian Robert Dean (Dean International)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2013-02-15'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.45(a)'
@@ -24,3 +24,5 @@ notes: |
   Whether a multiengine airplane may be used for the complex portion of a
   commercial single-engine practical test, or for the § 61.129(a)(3)(ii)
   complex training hours. Cites Fitch (Nov. 14, 2012).
+mirror: true
+sha256: c135160cccabcc6456507eea59a9127c97c2e741a1920111d95c149b8b70238e

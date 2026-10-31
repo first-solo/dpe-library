@@ -1,13 +1,13 @@
 id: interp-sisk-2008
 title: 'Legal Interpretation to E. Thomas Sisk'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 # verify this date: stamp is mostly unreadable ("MAR _ 2008"); Glenn and Van Zanen
 # (2009) both cite this letter as Mar. 18, 2008.
 effective_date: '2008-03-18'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.1(b)(3)(ii)'
@@ -21,3 +21,5 @@ check:
 notes: |
   Whether a cross-country flight must include a single leg of more than 50 nm.
   Reaffirms Tenuta (Apr. 17, 1998).
+mirror: true
+sha256: ce49a860d4c7fc4556f4ea1db9d0ecce2813ab2a90a3fda48ab374bc6ecc8ef3

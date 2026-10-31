@@ -1,11 +1,11 @@
 id: interp-williams-2018
 title: 'Legal Interpretation to Lawrence Williams'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2018-08-27'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.23(a)(3)(ii)'
@@ -28,3 +28,5 @@ notes: |
   Whether a CFI not acting as PIC needs a medical when training a single-engine
   pilot for a multiengine rating, and whether instrument training may be
   given from a jump seat with a safety pilot up front.
+mirror: true
+sha256: 86f57671c745c34158c1e2b18b3f1161eb53edf670a00a0aec96e4eef81b6777

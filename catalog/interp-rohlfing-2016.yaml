@@ -1,11 +1,11 @@
 id: interp-rohlfing-2016
 title: 'Legal Interpretation to Scott Rohlfing'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2016-02-24'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '61.65(d)(2)'
@@ -24,3 +24,5 @@ check:
 notes: |
   Whether the private pilot's 3 hours of control by reference to instruments
   count toward the instrument rating's 40 hours and 15 hours.
+mirror: true
+sha256: 97a4ff542cb0716121f9ca66c4bba6c96961ffc708ade4370d02187b904e23d3

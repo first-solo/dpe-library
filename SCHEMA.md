@@ -57,6 +57,9 @@ conventions:
   type; `related` is kept for letters that cite each other.
 - **`notes`** state the question the letter answers, not the answer. The
   holding is the letter's to state.
+- **`pdf_url`** is left empty and the letter is mirrored. The owner holds
+  copies, so the scan in `mirror/<id>.pdf` is the reference and the README
+  links to it. The FAA's own link is optional.
 - **`check`** is `manual`. A letter does not change once issued; what changes
   is whether it is still in effect, which no automated check here can see.
 

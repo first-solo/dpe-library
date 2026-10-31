@@ -1,11 +1,11 @@
 id: interp-ragland-2015
 title: 'Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)'
-doc_number: null
+doc_number:
 type: interpretation
 status: unknown
 effective_date: '2015-05-05'
 source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
-pdf_url: TODO  # direct faa.gov link not yet recorded
+pdf_url:                     # not recorded; the mirrored copy in mirror/ is the reference
 last_checked:
 interprets:
 - '119.1(e)(4)'
@@ -23,3 +23,5 @@ check:
 notes: |
   Whether the § 119.1(e)(4) aerial-work exception covers sightseeing flights
   without a § 91.147 LOA or part 119 certificate.
+mirror: true
+sha256: 53c605777d146d6a2fb10f754337f218bef89f09d8029dde4261884e3daab919
