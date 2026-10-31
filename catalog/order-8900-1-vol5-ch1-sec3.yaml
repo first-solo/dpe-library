@@ -7,7 +7,7 @@ revision: CHG 997
 effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch1, certification-process, 8710-1, iacra, identity-verification, oral-test, flight-test]
 applies_to: [ALL]
@@ -18,3 +18,4 @@ notes: |
   Paras 5-51 through 5-58. 8710-1 review is 5-53, 8400-3 review is 5-54,
   applicant identity verification is 5-55, drug convictions is 5-56. 5-57 and
   5-58 cover the oral and flight test phases for Parts 121 and 135.
+sha256: 509e6dbda9752a6e64f924e19635c5c315f174a12ee9147d98aaec0476b74f14

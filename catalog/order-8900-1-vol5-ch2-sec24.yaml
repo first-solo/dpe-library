@@ -7,7 +7,7 @@ revision: CHG 1011
 effective_date: 2025-12-09       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch2, sport-pilot, practical-test, task]
 applies_to: [SP]
@@ -18,3 +18,4 @@ notes: |
   Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
   Paras 5-2-24-1 through 5-2-24-21. This section uses the newer
   volume-chapter-section-paragraph numbering, unlike the rest of the chapter.
+sha256: a0a4c0592ace42bdaaaeb4b0fd5f0709d87c7923f35c576b8f024f6b22e40817

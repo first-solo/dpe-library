@@ -7,7 +7,7 @@ revision: CHG 944
 effective_date: 2024-11-12       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch2, iacra, 8710-1, application]
 applies_to: [ALL]
@@ -18,3 +18,4 @@ notes: |
   Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
   Paras 5-286 through 5-292. Procedures 5-288, references and job aids 5-289,
   task outcomes 5-290, government computers for IACRA 5-292.
+sha256: 84a3506852bdfb664fbe23dc32eaa5231a2e883c604dd8794fc7fa260e8865e2

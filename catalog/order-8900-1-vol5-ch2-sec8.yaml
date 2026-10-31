@@ -7,7 +7,7 @@ revision: CHG 997
 effective_date: 2025-08-29       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch2, commercial-pilot, practical-test, task]
 applies_to: [COM]
@@ -17,3 +17,4 @@ check:
 notes: |
   Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
   Paras 5-401 through 5-411, in the standard task layout.
+sha256: 3a223e7cd3d5d4792afe8daa6df33cf0682085e90abbb4c7a230378fd1a34a3a

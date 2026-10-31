@@ -7,7 +7,7 @@ revision: CHG 960
 effective_date: 2025-05-01       # page header date; confirm against the DRS effective date
 source_url: https://drs.faa.gov/browse
 pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
-mirror: false
+mirror: true
 last_checked:
 tags: [8900-1, vol5-ch2, atp, practical-test, task]
 applies_to: [ATP]
@@ -17,3 +17,4 @@ check:
 notes: |
   Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
   Paras 5-701 through 5-715, in the standard task layout.
+sha256: 5e346b94c1feff1eb3aa45c4bd86f250a938953e95b3f6438c0758afff62665a
