@@ -1,19 +1,33 @@
 id: order-8900-1-vol5-ch2
-title: FSIMS Order 8900.1 Vol 5 Ch 2 — Airman Certification, Practical Tests
+title: Order 8900.1 Vol 5 Ch 2 — Title 14 CFR Part 61 Certification of Pilots and Flight Instructors
 doc_number: 8900.1
 type: order
 status: current
-revision: TODO
-effective_date: TODO
+# No revision or effective_date: each section carries its own CHG number.
 source_url: https://drs.faa.gov/browse
-pdf_url:                  # DRS serves HTML per chapter, not a PDF
+pdf_url:                  # DRS serves the order per section, not as a chapter PDF
 mirror: false
 last_checked:
 tags: [practical-test, examiner-conduct, disapproval, letter-of-discontinuance]
 applies_to: [ALL]
-related: [acs-private-airplane, order-8000-95]
+related:
+- acs-private-airplane
+- order-8000-95
+- order-8900-1-vol5-ch2-sec1
+- order-8900-1-vol5-ch2-sec2
+- order-8900-1-vol5-ch2-sec3
+- order-8900-1-vol5-ch2-sec4
+- order-8900-1-vol5-ch2-sec5
+- order-8900-1-vol5-ch2-sec7
+- order-8900-1-vol5-ch2-sec8
+- order-8900-1-vol5-ch2-sec9
+- order-8900-1-vol5-ch2-sec11
+- order-8900-1-vol5-ch2-sec12
+- order-8900-1-vol5-ch2-sec18
+- order-8900-1-vol5-ch2-sec24
 check:
   method: manual          # DRS is a single-page app; no documented public API
 notes: |
-  Catalogue individual volumes and chapters, not "the 8900." The order is
-  revised per-chapter and a whole-document entry will always be wrong.
+  Chapter-level index. Revision tracking lives on the section entries, since
+  sections within the chapter are on different changes. Sections 6, 10, 13
+  through 17, and 19 through 23 are not yet catalogued.

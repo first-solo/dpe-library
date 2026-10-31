@@ -1,0 +1,21 @@
+id: order-8900-1-vol5-ch2-sec2
+title: "Order 8900.1 Vol 5 Ch 2 Sec 2 — Special Emphasis Items"
+doc_number: 8900.1
+type: order
+status: current
+revision: CHG 0
+effective_date: 2007-09-13       # page header date; confirm against the DRS effective date
+source_url: https://drs.faa.gov/browse
+pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
+mirror: false
+last_checked:
+tags: [8900-1, vol5-ch2, special-emphasis, simulated-engine-failure, collision-avoidance, instrument-skills]
+applies_to: [ALL]
+related: [order-8900-1-vol5-ch2]
+check:
+  method: manual            # DRS is a single-page app; no documented public API
+notes: |
+  Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
+  Paras 5-236 through 5-240. Simulated power failure dangers 5-237, scan
+  program 5-238, position reporting and collision avoidance 5-239, instrument
+  flying skills 5-240. Still at the original CHG 0 text.

@@ -1,0 +1,20 @@
+id: order-8900-1-vol5-ch2-sec24
+title: "Order 8900.1 Vol 5 Ch 2 Sec 24 — Conduct a Sport Pilot Certification, Including Additional Category/Class Privilege"
+doc_number: 8900.1
+type: order
+status: current
+revision: CHG 1011
+effective_date: 2025-12-09       # page header date; confirm against the DRS effective date
+source_url: https://drs.faa.gov/browse
+pdf_url:                     # no verified direct link; faa.gov unreachable when catalogued
+mirror: false
+last_checked:
+tags: [8900-1, vol5-ch2, sport-pilot, practical-test, task]
+applies_to: [SP]
+related: [order-8900-1-vol5-ch2]
+check:
+  method: manual            # DRS is a single-page app; no documented public API
+notes: |
+  Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.
+  Paras 5-2-24-1 through 5-2-24-21. This section uses the newer
+  volume-chapter-section-paragraph numbering, unlike the rest of the chapter.

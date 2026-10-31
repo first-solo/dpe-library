@@ -100,13 +100,348 @@
     ]
   },
   {
-    "id": "order-8900-1-vol5-ch2",
-    "title": "FSIMS Order 8900.1 Vol 5 Ch 2 \u2014 Airman Certification, Practical Tests",
+    "id": "order-8900-1-vol5-ch1-sec3",
+    "title": "Order 8900.1 Vol 5 Ch 1 Sec 3 \u2014 Phases of Certification",
     "doc_number": 8900.1,
     "type": "order",
     "status": "current",
-    "revision": "TODO",
-    "effective_date": "TODO",
+    "revision": "CHG 997",
+    "effective_date": "2025-08-29",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch1",
+      "certification-process",
+      "8710-1",
+      "iacra",
+      "identity-verification",
+      "oral-test",
+      "flight-test"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Vol 5 Ch 1: Direction, Guidance, and Procedures for Title 14 CFR Parts 121/135 and General Aviation.\nParas 5-51 through 5-58. 8710-1 review is 5-53, 8400-3 review is 5-54,\napplicant identity verification is 5-55, drug convictions is 5-56. 5-57 and\n5-58 cover the oral and flight test phases for Parts 121 and 135.\n",
+    "related": []
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec1",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 1 \u2014 General",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 998",
+    "effective_date": "2025-08-29",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "practical-test",
+      "plan-of-action",
+      "briefings",
+      "aircraft-limitations",
+      "soda",
+      "combination-test",
+      "discontinuance",
+      "retest"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-216 through 5-223. Certification process and SODA in 5-218\n(SODA at 5-218F). Aircraft, equipment, limitations, and FSTDs in 5-219.\nSRM evaluation in 5-220. Plan of action in 5-221: PTS-based tests at B,\nACS-based tests at C, worked ACS example at D, designee location at E.\nPretest, preflight, and postflight briefings in 5-222. Combination practical\ntests in 5-223, including discontinuance (H), disapproval notice (I), and\nretest after failure (K).\n",
+    "related": [
+      "order-8900-1-vol5-ch2",
+      "acs-private-airplane",
+      "acs-commercial-airplane"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec11",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 11 \u2014 Conduct a Title 14 CFR Part 61 Flight Instructor Initial Certification, Additional Category/Class Ratings, Recent Experience Validation, and Reinstatement of Privileges",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 998",
+    "effective_date": "2025-08-29",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "flight-instructor",
+      "practical-test",
+      "reinstatement",
+      "task"
+    ],
+    "applies_to": [
+      "CFI"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-496 through 5-511, in the standard task layout.\n",
+    "related": [
+      "order-8900-1-vol5-ch2",
+      "pts-cfi-airplane"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec12",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 12 \u2014 Conduct a Title 14 CFR Part 61 Flight Instructor with a Sport Pilot Rating Initial Certification, Additional Category/Class Privilege, Recent Experience Validation, or Reinstatement of Privileges",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 1011",
+    "effective_date": "2025-12-09",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "flight-instructor",
+      "sport-pilot",
+      "practical-test",
+      "reinstatement",
+      "task"
+    ],
+    "applies_to": [
+      "CFI-SP"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-531 through 5-546, in the standard task layout.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec18",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 18 \u2014 Conduct an Airline Transport Pilot Certification, Including Additional Category/Class Ratings",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 960",
+    "effective_date": "2025-05-01",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "atp",
+      "practical-test",
+      "task"
+    ],
+    "applies_to": [
+      "ATP"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-701 through 5-715, in the standard task layout.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec2",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 2 \u2014 Special Emphasis Items",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 0",
+    "effective_date": "2007-09-13",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "special-emphasis",
+      "simulated-engine-failure",
+      "collision-avoidance",
+      "instrument-skills"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-236 through 5-240. Simulated power failure dangers 5-237, scan\nprogram 5-238, position reporting and collision avoidance 5-239, instrument\nflying skills 5-240. Still at the original CHG 0 text.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec24",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 24 \u2014 Conduct a Sport Pilot Certification, Including Additional Category/Class Privilege",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 1011",
+    "effective_date": "2025-12-09",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "sport-pilot",
+      "practical-test",
+      "task"
+    ],
+    "applies_to": [
+      "SP"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-2-24-1 through 5-2-24-21. This section uses the newer\nvolume-chapter-section-paragraph numbering, unlike the rest of the chapter.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec3",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 3 \u2014 Flight Reviews and Competency Checks",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 944",
+    "effective_date": "2024-11-12",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "flight-review",
+      "competency-check",
+      "logbook-endorsements",
+      "high-performance",
+      "complex",
+      "nvg"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-256 through 5-269. Evaluating the review 5-262, length 5-263,\nendorsements 5-264, \u00a7 61.57 recent instrument experience 5-265,\nhigh-performance and complex checks 5-266 and 5-267, NVG 5-269.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec4",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 4 \u2014 Integrated Airman Certification and Rating Application Process",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 944",
+    "effective_date": "2024-11-12",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "iacra",
+      "8710-1",
+      "application"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-286 through 5-292. Procedures 5-288, references and job aids 5-289,\ntask outcomes 5-290, government computers for IACRA 5-292.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec5",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 5 \u2014 Miscellaneous 14 CFR Part 61 Certification Information",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 998",
+    "effective_date": "2025-08-29",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "english-language",
+      "fstd",
+      "type-rating",
+      "sfar-41",
+      "certificate-replacement",
+      "surrender",
+      "lost-logbooks",
+      "61-64-limitation"
+    ],
+    "applies_to": [
+      "ALL"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-311 through 5-324. FSTD use under \u00a7 61.58 and \u00a7 61.45 in 5-312 and\n5-313, English language requirements 5-314, hearing- and speech-impaired\nlimitations 5-315, type rating requirements 5-317, SFAR 41 5-318, amendment\nand replacement of certificates 5-319, voluntary surrender 5-320, deceased\nairman 5-321, lost logbooks 5-322, removal of the \u00a7 61.64 limitation 5-324.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec7",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 7 \u2014 Conduct a Private Pilot Certification, Including Additional Category/Class Ratings",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 997",
+    "effective_date": "2025-08-29",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "private-pilot",
+      "practical-test",
+      "task"
+    ],
+    "applies_to": [
+      "PVT"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-371 through 5-384, in the standard task layout (reporting system,\nobjective, procedures, outcomes, future activities).\n",
+    "related": [
+      "order-8900-1-vol5-ch2",
+      "acs-private-airplane"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec8",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 8 \u2014 Conduct a Commercial Pilot Certification Including Additional Category/Class Ratings",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 997",
+    "effective_date": "2025-08-29",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "commercial-pilot",
+      "practical-test",
+      "task"
+    ],
+    "applies_to": [
+      "COM"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-401 through 5-411, in the standard task layout.\n",
+    "related": [
+      "order-8900-1-vol5-ch2",
+      "acs-commercial-airplane"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2-sec9",
+    "title": "Order 8900.1 Vol 5 Ch 2 Sec 9 \u2014 Conduct an Instrument Rating Certification",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": "CHG 997",
+    "effective_date": "2025-08-29",
+    "url": "https://drs.faa.gov/browse",
+    "tags": [
+      "8900-1",
+      "vol5-ch2",
+      "instrument-rating",
+      "practical-test",
+      "task"
+    ],
+    "applies_to": [
+      "IR"
+    ],
+    "notes": "Vol 5 Ch 2: Title 14 CFR Part 61 Certification of Pilots and Flight Instructors.\nParas 5-431 through 5-448, in the standard task layout.\n",
+    "related": [
+      "order-8900-1-vol5-ch2"
+    ]
+  },
+  {
+    "id": "order-8900-1-vol5-ch2",
+    "title": "Order 8900.1 Vol 5 Ch 2 \u2014 Title 14 CFR Part 61 Certification of Pilots and Flight Instructors",
+    "doc_number": 8900.1,
+    "type": "order",
+    "status": "current",
+    "revision": null,
+    "effective_date": "",
     "url": "https://drs.faa.gov/browse",
     "tags": [
       "practical-test",
@@ -117,10 +452,22 @@
     "applies_to": [
       "ALL"
     ],
-    "notes": "Catalogue individual volumes and chapters, not \"the 8900.\" The order is\nrevised per-chapter and a whole-document entry will always be wrong.\n",
+    "notes": "Chapter-level index. Revision tracking lives on the section entries, since\nsections within the chapter are on different changes. Sections 6, 10, 13\nthrough 17, and 19 through 23 are not yet catalogued.\n",
     "related": [
       "acs-private-airplane",
-      "order-8000-95"
+      "order-8000-95",
+      "order-8900-1-vol5-ch2-sec1",
+      "order-8900-1-vol5-ch2-sec2",
+      "order-8900-1-vol5-ch2-sec3",
+      "order-8900-1-vol5-ch2-sec4",
+      "order-8900-1-vol5-ch2-sec5",
+      "order-8900-1-vol5-ch2-sec7",
+      "order-8900-1-vol5-ch2-sec8",
+      "order-8900-1-vol5-ch2-sec9",
+      "order-8900-1-vol5-ch2-sec11",
+      "order-8900-1-vol5-ch2-sec12",
+      "order-8900-1-vol5-ch2-sec18",
+      "order-8900-1-vol5-ch2-sec24"
     ]
   },
   {
