@@ -15,6 +15,7 @@ import urllib.error
 import urllib.request
 
 import dpelib as L
+from catalog_writer import write_fields
 
 UA = "dpe-library/0.1 (personal reference index)"
 
@@ -34,7 +35,7 @@ def main() -> int:
     docs = L.load_catalog(private=False)
     outdir = L.LOCAL / "pdfs"
     outdir.mkdir(parents=True, exist_ok=True)
-    mirrordir = L.ROOT / "mirror"
+    mirrordir = L.MIRROR
 
     fetched = skipped = failed = 0
     for d in docs:
@@ -70,6 +71,8 @@ def main() -> int:
         if d.get("mirror"):
             mirrordir.mkdir(exist_ok=True)
             (mirrordir / f"{d['id']}.pdf").write_bytes(body)
+            # build.py --check holds every mirrored copy to its catalog hash.
+            write_fields(d["id"], {"sha256": digest})
             print(f"        mirrored to mirror/{d['id']}.pdf (tracked)")
 
     print(f"\n{fetched} fetched, {skipped} skipped, {failed} failed")

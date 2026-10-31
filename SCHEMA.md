@@ -16,10 +16,10 @@ One YAML file per document in `catalog/`. The filename stem must equal the
 | `effective_date` | | ISO date. |
 | `source_url` | yes | Canonical landing page. |
 | `pdf_url` | | Direct file link. Leave empty when the source serves HTML only. |
-| `sha256` | | Hash of the last fetched copy. Written by `check_updates.py`. |
+| `sha256` | | Hash of the last fetched copy, or of the tracked mirror copy. Written by `check_updates.py`, `fetch.py` and `mirror.py`. |
 | `http` | | Stored ETag / Last-Modified / Content-Length. Written by `check_updates.py`. |
 | `last_checked` | | ISO date. Written by `check_updates.py`. |
-| `mirror` | | `true` to keep a tracked frozen copy in `mirror/`. |
+| `mirror` | | `true` to keep a tracked copy in `mirror/<id>.pdf`. For documents with no stable direct download, chiefly DRS exports. Set by `make mirror ID=<id> FILE=<path>`. The build fails if the copy no longer matches `sha256`. With no `pdf_url`, the README links to the copy. |
 | `tags` | yes | Free-form subject keywords. |
 | `applies_to` | | Certificates and ratings: `PVT-ASEL`, `CFI-A`, `ATP`, `ALL`. |
 | `related` | | Other IDs. Validated; a dangling reference fails the build. |
