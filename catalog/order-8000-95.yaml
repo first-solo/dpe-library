@@ -4,9 +4,9 @@ doc_number: 8000.95
 type: order
 status: current
 revision: E
-effective_date: TODO   # blank on the text extraction's cover; read it from the PDF or DRS
+effective_date: 2026-09-15   # cover block; signature date matches
 source_url: https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001
-pdf_url:                # DRS viewer link only; mirror the export once the PDF is uploaded
+pdf_url:                # DRS viewer link only; no stable direct download
 last_checked:
 tags: [designee, dpe, oversight, renewal, managing-specialist]
 applies_to: [ALL]
@@ -18,3 +18,5 @@ notes: |
   Vol 1 is common policy for all AVS designees (application, oversight,
   annual extension, termination, suspension); Vol 3 is the DPE, SAE and
   Admin PE policy. Vol 1 Ch 1 para 7 lists the changes by volume.
+mirror: true
+sha256: f39d91a6a7609dca760b9d9592dbac59b44008877fc91c9e055c9d2686dcae08

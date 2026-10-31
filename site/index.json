@@ -1656,8 +1656,8 @@
     "type": "order",
     "status": "current",
     "revision": "E",
-    "effective_date": "TODO",
-    "url": "https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001",
+    "effective_date": "2026-09-15",
+    "url": "mirror/order-8000-95.pdf",
     "tags": [
       "designee",
       "dpe",

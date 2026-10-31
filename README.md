@@ -21,8 +21,8 @@ against the FAA source before relying on a document.
 
 ## Orders
 
-- [Designee Management Policy](https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001)
-  `8000.95` · Rev E · TODO
+- [Designee Management Policy](mirror/order-8000-95.pdf)
+  `8000.95` · Rev E · 2026-09-15
   `designee` `dpe` `oversight` `renewal` `managing-specialist`
   > Revision E cancels 8000.95D (dated January 21, 2025). Ten volumes:
   > Vol 1 is common policy for all AVS designees (application, oversight,
@@ -880,7 +880,7 @@ Paragraphs after the dash are the specific provisions each letter cites.
 
 ## By certificate
 
-- **ALL** — [FAA Chief Counsel Legal Interpretations (index)](https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations), [Designee Management Policy](https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001), [Order 8900.1 Vol 5 Ch 1 Sec 3 — Phases of Certification](mirror/order-8900-1-vol5-ch1-sec3.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 1 — General](mirror/order-8900-1-vol5-ch2-sec1.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 2 — Special Emphasis Items](mirror/order-8900-1-vol5-ch2-sec2.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 3 — Flight Reviews and Competency Checks](mirror/order-8900-1-vol5-ch2-sec3.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 4 — Integrated Airman Certification and Rating Application Process](mirror/order-8900-1-vol5-ch2-sec4.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 5 — Miscellaneous 14 CFR Part 61 Certification Information](mirror/order-8900-1-vol5-ch2-sec5.pdf), [Order 8900.1 Vol 5 Ch 2 — Title 14 CFR Part 61 Certification of Pilots and Flight Instructors](https://drs.faa.gov/browse)
+- **ALL** — [FAA Chief Counsel Legal Interpretations (index)](https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations), [Designee Management Policy](mirror/order-8000-95.pdf), [Order 8900.1 Vol 5 Ch 1 Sec 3 — Phases of Certification](mirror/order-8900-1-vol5-ch1-sec3.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 1 — General](mirror/order-8900-1-vol5-ch2-sec1.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 2 — Special Emphasis Items](mirror/order-8900-1-vol5-ch2-sec2.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 3 — Flight Reviews and Competency Checks](mirror/order-8900-1-vol5-ch2-sec3.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 4 — Integrated Airman Certification and Rating Application Process](mirror/order-8900-1-vol5-ch2-sec4.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 5 — Miscellaneous 14 CFR Part 61 Certification Information](mirror/order-8900-1-vol5-ch2-sec5.pdf), [Order 8900.1 Vol 5 Ch 2 — Title 14 CFR Part 61 Certification of Pilots and Flight Instructors](https://drs.faa.gov/browse)
 - **ATP** — [Order 8900.1 Vol 5 Ch 2 Sec 18 — Conduct an Airline Transport Pilot Certification, Including Additional Category/Class Ratings](mirror/order-8900-1-vol5-ch2-sec18.pdf)
 - **CFI** — [Order 8900.1 Vol 5 Ch 2 Sec 11 — Conduct a Title 14 CFR Part 61 Flight Instructor Initial Certification, Additional Category/Class Ratings, Recent Experience Validation, and Reinstatement of Privileges](mirror/order-8900-1-vol5-ch2-sec11.pdf)
 - **CFI-A** — [Flight Instructor – Airplane Practical Test Standards](https://www.faa.gov/training_testing/testing)
@@ -935,10 +935,10 @@ Paragraphs after the dash are the specific provisions each letter cites.
 - `complex` — [Legal Interpretation to Ian Robert Dean (Dean International)](mirror/interp-dean-2013.pdf), [Legal Interpretation to Taylor Grayson](mirror/interp-grayson-2010.pdf), [Legal Interpretation to Jason E. Herman](mirror/interp-herman-2009.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 3 — Flight Reviews and Competency Checks](mirror/order-8900-1-vol5-ch2-sec3.pdf)
 - `cost-sharing` — [Legal Interpretation to William F. Trussell](mirror/interp-trussell-2012.pdf)
 - `cross-country` — [Chief Counsel Memorandum to R. C. Carty, AFX-1: Reconsideration of Glaser (2008) and Pratte (2012)](mirror/interp-carty-2022.pdf), [Legal Interpretation to Jeff Gebhart](mirror/interp-gebhart-2009.pdf), [Legal Interpretation to Ted Louis Glenn](mirror/interp-glenn-2009.pdf), [Legal Interpretation to Gareth Gordon](mirror/interp-gordon-2006.pdf), [Legal Interpretation to William Grannis](mirror/interp-grannis-2016-2.pdf), [Legal Interpretation to Randy Haralson](mirror/interp-haralson-2009.pdf), [Legal Interpretation to James Hilliard](mirror/interp-hilliard-2009.pdf), [Legal Interpretation to Terrence K. Keller Jr.](mirror/interp-keller-2009.pdf), [Legal Interpretation to Daniel Murphy](mirror/interp-murphy-2011.pdf), [Legal Interpretation to E. Thomas Sisk](mirror/interp-sisk-2008.pdf), [Legal Interpretation to Mike Sun](mirror/interp-sun-2011.pdf), [Legal Interpretation to Dwight B. Van Zanen](mirror/interp-van-zanen-2009.pdf)
-- `designee` — [Designee Management Policy](https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001)
+- `designee` — [Designee Management Policy](mirror/order-8000-95.pdf)
 - `disapproval` — [Order 8900.1 Vol 5 Ch 2 — Title 14 CFR Part 61 Certification of Pilots and Flight Instructors](https://drs.faa.gov/browse)
 - `discontinuance` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 1 — General](mirror/order-8900-1-vol5-ch2-sec1.pdf)
-- `dpe` — [Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)](mirror/interp-ragland-2015-2.pdf), [Designee Management Policy](https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001)
+- `dpe` — [Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)](mirror/interp-ragland-2015-2.pdf), [Designee Management Policy](mirror/order-8000-95.pdf)
 - `drug-testing` — [Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)](mirror/interp-ragland-2015.pdf)
 - `eligibility` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf), [Legal Interpretation to Peter H. Asp](mirror/interp-asp-2015.pdf), [Legal Interpretation to David Cleveland](mirror/interp-cleveland-2012.pdf), [Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)](mirror/interp-crowe-2015.pdf)
 - `endorsements` — [Legal Interpretation to Chris Bennett (Southern California Soaring Academy)](mirror/interp-bennett-2016.pdf), [Legal Interpretation to David Cleveland](mirror/interp-cleveland-2012.pdf), [Legal Interpretation to Taylor Grayson](mirror/interp-grayson-2010.pdf), [Legal Interpretation to Jason E. Herman](mirror/interp-herman-2009.pdf), [Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)](mirror/interp-ragland-2015-2.pdf), [Legal Interpretation to Peter K. Underwood](mirror/interp-underwood-2014.pdf)
@@ -979,13 +979,13 @@ Paragraphs after the dash are the specific provisions each letter cites.
 - `logging` — [Legal Interpretation to William Grannis](mirror/interp-grannis-2016-2.pdf), [Legal Interpretation to James Hilliard](mirror/interp-hilliard-2009.pdf), [Legal Interpretation to Ronald B. Levy](mirror/interp-levy-2008.pdf), [Legal Interpretation to Daniel Murphy](mirror/interp-murphy-2015.pdf), [Legal Interpretation to David J. Oord (AOPA)](mirror/interp-oord-2018.pdf), [Legal Interpretation to E. Thomas Sisk](mirror/interp-sisk-2008.pdf), [Legal Interpretation to Dwight B. Van Zanen](mirror/interp-van-zanen-2009.pdf), [Legal Interpretation to Keith E. Walker](mirror/interp-walker-2011.pdf)
 - `lost-logbooks` — [Order 8900.1 Vol 5 Ch 2 Sec 5 — Miscellaneous 14 CFR Part 61 Certification Information](mirror/order-8900-1-vol5-ch2-sec5.pdf)
 - `maintenance` — [Legal Interpretation to Francis De Joseph](mirror/interp-de-joseph-2017.pdf), [Legal Interpretation to Stephen R. Greenwood (Fly By Knight)](mirror/interp-greenwood-2015.pdf), [Legal Interpretation to Richard A. Peri (Aircraft Electronics Association)](mirror/interp-peri-2018.pdf)
-- `managing-specialist` — [Designee Management Policy](https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001)
+- `managing-specialist` — [Designee Management Policy](mirror/order-8000-95.pdf)
 - `medical` — [Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)](mirror/interp-crowe-2015-2.pdf), [Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)](mirror/interp-crowe-2015.pdf), [Chief Counsel Memorandum to Ricardo Domingo, AFX-1: 14 CFR 67.401(f)(4)](mirror/interp-domingo-2018-2.pdf), [Legal Interpretation to Daniel Murphy](mirror/interp-murphy-2008.pdf), [Legal Interpretation to Lawrence Williams](mirror/interp-williams-2018.pdf)
 - `multiengine` — [Legal Interpretation to Taylor Grayson](mirror/interp-grayson-2010-2.pdf), [Legal Interpretation to Lawrence Williams](mirror/interp-williams-2018.pdf)
 - `night` — [Legal Interpretation to Mike Sun](mirror/interp-sun-2011.pdf)
 - `nvg` — [Order 8900.1 Vol 5 Ch 2 Sec 3 — Flight Reviews and Competency Checks](mirror/order-8900-1-vol5-ch2-sec3.pdf)
 - `oral-test` — [Order 8900.1 Vol 5 Ch 1 Sec 3 — Phases of Certification](mirror/order-8900-1-vol5-ch1-sec3.pdf)
-- `oversight` — [Designee Management Policy](https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001)
+- `oversight` — [Designee Management Policy](mirror/order-8000-95.pdf)
 - `part-119` — [Legal Interpretation to William W. Grannis](mirror/interp-grannis-2017.pdf), [Legal Interpretation to Daniel Murphy](mirror/interp-murphy-2008.pdf), [Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)](mirror/interp-ragland-2015.pdf)
 - `part-135` — [Legal Interpretation to Richard Theriault](mirror/interp-theriault-2011.pdf)
 - `part-141` — [Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)](mirror/interp-crowe-2015-2.pdf), [Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)](mirror/interp-crowe-2015.pdf)
@@ -995,7 +995,7 @@ Paragraphs after the dash are the specific provisions each letter cites.
 - `private` — [Legal Interpretation to David Cleveland](mirror/interp-cleveland-2012.pdf), [Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)](mirror/interp-crowe-2015.pdf), [Chief Counsel Memorandum to Ricardo Domingo, AFX-1: 14 CFR 61.109(a)](mirror/interp-domingo-2018.pdf), [Legal Interpretation to Terrence K. Keller Jr.](mirror/interp-keller-2009.pdf), [Legal Interpretation to Mr. O'Mara](mirror/interp-omara-2012.pdf), [Legal Interpretation to Scott Rohlfing](mirror/interp-rohlfing-2016.pdf)
 - `private-pilot` — [Order 8900.1 Vol 5 Ch 2 Sec 7 — Conduct a Private Pilot Certification, Including Additional Category/Class Ratings](mirror/order-8900-1-vol5-ch2-sec7.pdf)
 - `reinstatement` — [Order 8900.1 Vol 5 Ch 2 Sec 11 — Conduct a Title 14 CFR Part 61 Flight Instructor Initial Certification, Additional Category/Class Ratings, Recent Experience Validation, and Reinstatement of Privileges](mirror/order-8900-1-vol5-ch2-sec11.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 12 — Conduct a Title 14 CFR Part 61 Flight Instructor with a Sport Pilot Rating Initial Certification, Additional Category/Class Privilege, Recent Experience Validation, or Reinstatement of Privileges](mirror/order-8900-1-vol5-ch2-sec12.pdf)
-- `renewal` — [Designee Management Policy](https://drs.faa.gov/browse/excelExternalWindow/DRSDOCID143172275220260915210800.0001)
+- `renewal` — [Designee Management Policy](mirror/order-8000-95.pdf)
 - `rental` — [Legal Interpretation to Stephen R. Greenwood (Fly By Knight)](mirror/interp-greenwood-2015.pdf)
 - `rescission` — [Chief Counsel Memorandum to R. C. Carty, AFX-1: Reconsideration of Glaser (2008) and Pratte (2012)](mirror/interp-carty-2022.pdf)
 - `retest` — [Commercial Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/commercial_airplane_acs_7.pdf), [Private Pilot for Airplane Category Airman Certification Standards](https://www.faa.gov/training_testing/testing/acs/private_airplane_acs_6.pdf), [Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)](mirror/interp-ragland-2015-2.pdf), [Legal Interpretation to Peter K. Underwood](mirror/interp-underwood-2014.pdf), [Order 8900.1 Vol 5 Ch 2 Sec 1 — General](mirror/order-8900-1-vol5-ch2-sec1.pdf)
@@ -1032,7 +1032,6 @@ Paragraphs after the dash are the specific provisions each letter cites.
 - interp-speranza-2009.yaml: effective_date needs verification
 - interp-van-zanen-2009.yaml: effective_date needs verification
 - interp-wynne-2008.yaml: effective_date needs verification
-- order-8000-95.yaml: effective_date needs verification
 - pts-cfi-airplane.yaml: effective_date needs verification
 - pts-cfi-airplane.yaml: pdf_url needs verification
 - pts-cfi-airplane.yaml: mirror is true but mirror/pts-cfi-airplane.pdf is missing
