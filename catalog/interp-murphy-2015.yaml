@@ -1,0 +1,29 @@
+id: interp-murphy-2015
+title: 'Legal Interpretation to Daniel Murphy'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2015-03-04'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '91.126(b)(1)'
+- '61.51(e)(1)(i)'
+- '61.51(f)'
+- '61.159(a)'
+tags:
+- legal-interpretation
+- traffic-pattern
+- pic-logging
+- autopilot
+- sic
+- logging
+related:
+- interp-murphy-2009
+check:
+  method: manual
+notes: |
+  AIM right-turn pattern entry versus § 91.126 (refers to Krug 2014 and
+  Gossman 2011), logging PIC while using the autopilot, and double-logging
+  PIC and SIC.

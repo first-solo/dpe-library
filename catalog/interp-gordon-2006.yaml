@@ -1,0 +1,24 @@
+id: interp-gordon-2006
+title: 'Legal Interpretation to Gareth Gordon'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: TODO  # verify this: letter is undated; request was Jan. 19, 2006
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.65(d)(1)'
+- '61.65(d)(2)'
+- '61.1(b)(3)(ii)'
+- '61.51(e)'
+tags:
+- legal-interpretation
+- instrument-rating
+- aeronautical-experience
+- cross-country
+check:
+  method: manual
+notes: |
+  Whether the § 61.65(d) 50 hours of PIC cross-country and 40 hours of
+  instrument time may be accrued concurrently.

@@ -1,0 +1,29 @@
+id: interp-crowe-2013
+title: 'Legal Interpretation to B. Dan Crowe (Palm Beach Helicopters)'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2013-02-04'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.129(c)(2)'
+- '61.129(c)(4)'
+- '61.51(e)'
+- '61.31(d)'
+- '61.63(b)(1)'
+tags:
+- legal-interpretation
+- commercial
+- helicopter
+- additional-rating
+- pic-logging
+- solo-endorsement
+- aeronautical-experience
+check:
+  method: manual
+notes: |
+  Commercial airplane pilot adding a helicopter rating: crediting time
+  performing PIC duties with an instructor, logging PIC when not rated, and
+  whether a § 61.31(d) endorsement is needed for that time.

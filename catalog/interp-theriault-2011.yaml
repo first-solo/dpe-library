@@ -1,0 +1,29 @@
+id: interp-theriault-2011
+title: 'Legal Interpretation to Richard Theriault'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2011-07-06'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.129(c)(3)(i)'
+- '61.1(b)(2)(iii)'
+- '135.338'
+tags:
+- legal-interpretation
+- commercial
+- helicopter
+- instrument-training
+- authorized-instructor
+- part-135
+related:
+- interp-hartzell-2010
+- interp-oord-2018
+check:
+  method: manual
+notes: |
+  Follow-up to the Oct. 8, 2010 Theriault letter: devices usable for the
+  § 61.129(c)(3)(i) hours, and whether a part 135 company instructor without a
+  CFI is an authorized instructor for logbook entries and the 8710.

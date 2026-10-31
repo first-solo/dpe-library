@@ -1,0 +1,24 @@
+id: interp-grayson-2010-2
+title: 'Legal Interpretation to Taylor Grayson'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2010-01-04'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.195(b)'
+- '61.195(c)'
+- '61.183'
+tags:
+- legal-interpretation
+- cfi-qualifications
+- instrument-training
+- multiengine
+check:
+  method: manual
+notes: |
+  Whether a CFII without a multiengine rating on the flight instructor
+  certificate may give instrument training in a multiengine airplane, and the
+  2009 change to § 61.195(c). Notes Order 8900.1 5-503 as inconsistent.

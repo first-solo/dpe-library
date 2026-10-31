@@ -1,0 +1,29 @@
+id: interp-oord-2018
+title: 'Legal Interpretation to David J. Oord (AOPA)'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2018-08-02'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.129(c)(3)(i)'
+- '61.65(e)'
+- '61.51'
+tags:
+- legal-interpretation
+- commercial
+- instrument-training
+- aeronautical-experience
+- logging
+related:
+- interp-hartzell-2010
+- interp-theriault-2011
+- interp-jablecki-2016
+check:
+  method: manual
+notes: |
+  Reconciles Theriault (2010, 2011), Hartzell (2010) and Jablecki (2016) on
+  counting instrument-rating training toward § 61.129 and states they remain
+  in effect. Includes the AFS-810 inquiry.

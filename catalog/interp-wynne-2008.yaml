@@ -1,0 +1,22 @@
+id: interp-wynne-2008
+title: 'Legal Interpretation to Joshua Wynne'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: TODO  # verify this: stamp reads "AUG _1 2008"; the first digit of the day is unreadable
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.57(c)'
+- '61.57(d)'
+tags:
+- legal-interpretation
+- instrument-currency
+- instrument-rating
+- practical-test
+check:
+  method: manual
+notes: |
+  Whether a newly instrument-rated pilot is immediately subject to the
+  § 61.57(c) recency requirement.

@@ -1,0 +1,29 @@
+id: interp-grayson-2010-3
+title: 'Legal Interpretation to Taylor Grayson'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2010-07-06'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.65(d)(2)'
+- '61.195(c)'
+- '61.189(b)(1)'
+- '61.87'
+tags:
+- legal-interpretation
+- instrument-rating
+- instrument-training
+- cfi-qualifications
+- cfi-records
+- solo-endorsement
+related:
+- interp-grayson-2010-2
+check:
+  method: manual
+notes: |
+  Whether a CFI without an instrument rating may give training toward the
+  instrument rating beyond the required 15 hours, and which solo
+  endorsements a CFI must keep records of under § 61.189(b)(1).

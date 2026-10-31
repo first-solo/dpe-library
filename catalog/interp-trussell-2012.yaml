@@ -1,0 +1,27 @@
+id: interp-trussell-2012
+title: 'Legal Interpretation to William F. Trussell'
+doc_number: null
+type: interpretation
+status: unknown
+# verify this date: stamp is partly unreadable ("JU_ 24 2012"); Creech (2013) cites
+# this letter as July 24, 2012.
+effective_date: '2012-07-24'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.51(e)(1)(iii)'
+- '61.51(f)'
+- '61.113(c)'
+- '91.109(b)'
+tags:
+- legal-interpretation
+- pic-logging
+- sic
+- safety-pilot
+- cost-sharing
+check:
+  method: manual
+notes: |
+  How a safety pilot logs time depending on who acts as PIC, and whether the
+  safety pilot must share expenses under § 61.113(c).

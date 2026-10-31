@@ -1,0 +1,27 @@
+id: interp-haralson-2009
+title: 'Legal Interpretation to Randy Haralson'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: TODO  # verify this: stamp reads "OCT _7 2009"; the first digit of the day is unreadable
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.65(d)(1)'
+- '61.51(e)'
+- '61.3(e)'
+tags:
+- legal-interpretation
+- instrument-rating
+- cross-country
+- pic-logging
+- aeronautical-experience
+related:
+- interp-gordon-2006
+check:
+  method: manual
+notes: |
+  Whether dual time in actual instrument conditions, as sole manipulator,
+  counts toward the 50 hours of cross-country time as PIC for the instrument
+  rating.
