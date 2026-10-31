@@ -1,0 +1,26 @@
+id: interp-murphy-2011
+title: 'Legal Interpretation to Daniel Murphy'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2011-01-11'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '91.209(b)'
+- '61.129(a)(3)(iii)'
+tags:
+- legal-interpretation
+- anticollision-lights
+- commercial
+- cross-country
+- aeronautical-experience
+related:
+- interp-letts-2017
+check:
+  method: manual
+notes: |
+  When anticollision lights must be on and whether both beacon and strobes
+  are required; and whether a student pilot's cross-country can count for the
+  commercial 2-hour day cross-country.

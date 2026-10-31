@@ -1,0 +1,24 @@
+id: interp-sun-2011
+title: 'Legal Interpretation to Mike Sun'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2011-08-11'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.129(c)(3)(i)'
+- '61.129(c)(3)(iii)'
+tags:
+- legal-interpretation
+- commercial
+- helicopter
+- cross-country
+- night
+- aeronautical-experience
+check:
+  method: manual
+notes: |
+  Whether a commercial helicopter night cross-country under IFR can also count
+  toward the instrument portion of § 61.129(c)(3).

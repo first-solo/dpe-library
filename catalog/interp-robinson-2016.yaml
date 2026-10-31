@@ -1,0 +1,23 @@
+id: interp-robinson-2016
+title: 'Legal Interpretation to Norman W. Robinson Jr.'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2016-09-20'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.195(h)(2)(v)'
+tags:
+- legal-interpretation
+- cfi-qualifications
+- glider
+- initial-cfi
+related:
+- interp-wadsworth-2008
+check:
+  method: manual
+notes: |
+  Whether the 80 hours of instruction required to train initial glider CFI
+  applicants must have been given in gliders.

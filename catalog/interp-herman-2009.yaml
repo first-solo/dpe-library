@@ -1,0 +1,25 @@
+id: interp-herman-2009
+title: 'Legal Interpretation to Jason E. Herman'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2009-05-21'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.51(e)'
+- '61.31(e)'
+- '61.31(f)'
+tags:
+- legal-interpretation
+- pic-logging
+- complex
+- high-performance
+- endorsements
+check:
+  method: manual
+notes: |
+  Whether a rated pilot without complex or high-performance endorsements may
+  log PIC as sole manipulator. Source of the logging-PIC versus acting-as-PIC
+  distinction cited in later letters.

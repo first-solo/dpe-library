@@ -1,0 +1,27 @@
+id: interp-crowe-2015-2
+title: 'Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2015-08-28'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '141.67'
+- '61.39(a)(4)'
+- '61.1'
+- '141 Appendix B'
+tags:
+- legal-interpretation
+- part-141
+- examining-authority
+- practical-test
+- medical
+related:
+- interp-crowe-2015
+check:
+  method: manual
+notes: |
+  Whether a part 141 end-of-course test given under examining authority is a
+  practical test for medical-certificate purposes.

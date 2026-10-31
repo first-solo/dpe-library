@@ -1,0 +1,21 @@
+id: interp-grannis-2016
+title: 'Legal Interpretation to William Grannis'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2016-04-21'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.129(a)(4)'
+tags:
+- legal-interpretation
+- commercial
+- aeronautical-experience
+- solo
+check:
+  method: manual
+notes: |
+  Whether the § 61.129(a)(4) 10 hours may combine solo time and time
+  performing PIC duties with an instructor. Includes the request letter.

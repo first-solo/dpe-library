@@ -1,0 +1,29 @@
+id: interp-counsil-2012
+title: 'Legal Interpretation to Glenn D. Counsil'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2012-04-13'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.51(e)(1)(i)'
+- '61.51(e)(1)(iv)'
+- '61.55'
+- '61.159(a)(4)'
+tags:
+- legal-interpretation
+- pic-logging
+- sic
+- type-rating
+- airline
+related:
+- interp-speranza-2009
+- interp-herman-2009
+check:
+  method: manual
+notes: |
+  Whether an airline first officer may log PIC as sole manipulator, and the
+  effect of an "SIC Privileges Only" type rating. Footnote corrects the 1999
+  Carpenter regional interpretation.

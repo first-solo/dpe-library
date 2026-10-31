@@ -1,0 +1,25 @@
+id: interp-greenwood-2015
+title: 'Legal Interpretation to Stephen R. Greenwood (Fly By Knight)'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2015-10-09'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '91.409(b)'
+- '141.39(a)(3)'
+tags:
+- legal-interpretation
+- maintenance
+- 100-hour
+- flight-school
+- rental
+check:
+  method: manual
+notes: |
+  Six scenarios on the 100-hour inspection for an aircraft used for both
+  instruction and rental, the 10-hour en-route allowance, and whether an
+  annual resets the 100-hour clock. Corrects and strikes the Oct. 1, 2014
+  letter to the same requester.

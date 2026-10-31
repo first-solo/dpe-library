@@ -1,0 +1,24 @@
+id: interp-carty-2022
+title: 'Chief Counsel Memorandum to R. C. Carty, AFX-1: Reconsideration of Glaser (2008) and Pratte (2012)'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2022-02-28'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.65(d)(2)(ii)(C)'
+tags:
+- legal-interpretation
+- instrument-rating
+- aeronautical-experience
+- cross-country
+- approaches
+- rescission
+check:
+  method: manual
+notes: |
+  Rescinds the Glaser and Pratte interpretations on the three-approach IFR
+  cross-country under § 61.65(d)(2)(ii)(C), including their treatment of PAR
+  and ASR. Refers the navigation-system question to Flight Standards.

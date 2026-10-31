@@ -1,0 +1,32 @@
+id: interp-murphy-2008
+title: 'Legal Interpretation to Daniel Murphy'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2008-12-22'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.23(a)(3)'
+- '61.89(a)(7)'
+- '61.189(a)'
+- '119.1(e)(1)'
+- '91.105(b)'
+- '91.107(a)(3)'
+tags:
+- legal-interpretation
+- medical
+- cfi
+- student-pilot
+- logbook
+- intro-flights
+- part-119
+- shoulder-harness
+check:
+  method: manual
+notes: |
+  Five questions: medical class for a CFI instructing for hire, student solo
+  above a cloud layer, what counts as a logbook, introductory flights under
+  § 119.1(e)(1), and shoulder harness during taxi. Withdraws the 1991 Gandy
+  and Rubin interpretations.

@@ -1,0 +1,27 @@
+id: interp-asp-2015
+title: 'Legal Interpretation to Peter H. Asp'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2015-07-28'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.129(h)(4)'
+- '61.123'
+- '61.39(a)(1)'
+tags:
+- legal-interpretation
+- commercial
+- balloon
+- aeronautical-experience
+- knowledge-test
+- eligibility
+check:
+  method: manual
+notes: |
+  Whether commercial balloon training can be logged before holding a private
+  certificate, whether the commercial knowledge test can be taken first, and
+  how the two § 61.129(h)(4) solo-flight provisions fit together. Corrects
+  and strikes the May 12, 2015 letter to the same requester.

@@ -79,6 +79,1577 @@
     "interprets": []
   },
   {
+    "id": "interp-asp-2015",
+    "title": "Legal Interpretation to Peter H. Asp",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-07-28",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "balloon",
+      "aeronautical-experience",
+      "knowledge-test",
+      "eligibility"
+    ],
+    "applies_to": [],
+    "notes": "Whether commercial balloon training can be logged before holding a private\ncertificate, whether the commercial knowledge test can be taken first, and\nhow the two \u00a7 61.129(h)(4) solo-flight provisions fit together. Corrects\nand strikes the May 12, 2015 letter to the same requester.\n",
+    "related": [],
+    "interprets": [
+      "61.129(h)(4)",
+      "61.123",
+      "61.39(a)(1)"
+    ]
+  },
+  {
+    "id": "interp-beard-2015",
+    "title": "Legal Interpretation to Daniel Beard",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-01-09",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "solo-endorsement",
+      "additional-rating",
+      "flight-review"
+    ],
+    "applies_to": [],
+    "notes": "Whether subpart C student solo endorsements apply to certificated pilots\nadding a category or class, whether a \u00a7 61.31(d) endorsement expires, and\nwhether the solo pilot needs a current flight review.\n",
+    "related": [],
+    "interprets": [
+      "61.31(d)",
+      "61.56(c)",
+      "61.56(g)",
+      "61.81",
+      "61.63(b)(1)"
+    ]
+  },
+  {
+    "id": "interp-bennett-2016",
+    "title": "Legal Interpretation to Chris Bennett (Southern California Soaring Academy)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2016-04-27",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "solo-endorsement",
+      "additional-rating",
+      "flight-review",
+      "glider",
+      "endorsements"
+    ],
+    "applies_to": [],
+    "notes": "Follow-up to Beard: flight review for certificated pilots soloing in a new\ncategory, whether a \u00a7 61.87 student endorsement may be used instead of\n\u00a7 61.31(d), and whether limits can be written into a \u00a7 61.31(d) endorsement.\nIncludes the requester's email and sample glider endorsements.\n",
+    "related": [
+      "interp-beard-2015"
+    ],
+    "interprets": [
+      "61.31(d)",
+      "61.56(c)",
+      "61.87",
+      "61.195(d)"
+    ]
+  },
+  {
+    "id": "interp-carty-2022",
+    "title": "Chief Counsel Memorandum to R. C. Carty, AFX-1: Reconsideration of Glaser (2008) and Pratte (2012)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2022-02-28",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "instrument-rating",
+      "aeronautical-experience",
+      "cross-country",
+      "approaches",
+      "rescission"
+    ],
+    "applies_to": [],
+    "notes": "Rescinds the Glaser and Pratte interpretations on the three-approach IFR\ncross-country under \u00a7 61.65(d)(2)(ii)(C), including their treatment of PAR\nand ASR. Refers the navigation-system question to Flight Standards.\n",
+    "related": [],
+    "interprets": [
+      "61.65(d)(2)(ii)(C)"
+    ]
+  },
+  {
+    "id": "interp-cleveland-2012",
+    "title": "Legal Interpretation to David Cleveland",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2012-05-25",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "private",
+      "home-study",
+      "endorsements",
+      "eligibility",
+      "practical-test",
+      "knowledge-test"
+    ],
+    "applies_to": [],
+    "notes": "What documentation a private applicant needs for home-study ground training,\nrequired wording of the knowledge-test endorsement, and whether \u00a7 61.107\nareas of operation must be listed verbatim in the logbook.\n",
+    "related": [],
+    "interprets": [
+      "61.105",
+      "61.103(d)",
+      "61.35(a)(1)",
+      "61.107"
+    ]
+  },
+  {
+    "id": "interp-counsil-2012",
+    "title": "Legal Interpretation to Glenn D. Counsil",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2012-04-13",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "sic",
+      "type-rating",
+      "airline"
+    ],
+    "applies_to": [],
+    "notes": "Whether an airline first officer may log PIC as sole manipulator, and the\neffect of an \"SIC Privileges Only\" type rating. Footnote corrects the 1999\nCarpenter regional interpretation.\n",
+    "related": [
+      "interp-speranza-2009",
+      "interp-herman-2009"
+    ],
+    "interprets": [
+      "61.51(e)(1)(i)",
+      "61.51(e)(1)(iv)",
+      "61.55",
+      "61.159(a)(4)"
+    ]
+  },
+  {
+    "id": "interp-creech-2013",
+    "title": "Legal Interpretation to Mr. Creech",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2013-08-08",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "sic",
+      "safety-pilot",
+      "simulated-instrument"
+    ],
+    "applies_to": [],
+    "notes": "Who logs PIC and SIC when one pilot flies under a view-limiting device and\nthe other is safety pilot, depending on which one acts as PIC.\n",
+    "related": [
+      "interp-gebhart-2009",
+      "interp-trussell-2012",
+      "interp-speranza-2009"
+    ],
+    "interprets": [
+      "61.51(e)",
+      "61.51(f)",
+      "91.109(c)"
+    ]
+  },
+  {
+    "id": "interp-crowe-2013",
+    "title": "Legal Interpretation to B. Dan Crowe (Palm Beach Helicopters)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2013-02-04",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "helicopter",
+      "additional-rating",
+      "pic-logging",
+      "solo-endorsement",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "Commercial airplane pilot adding a helicopter rating: crediting time\nperforming PIC duties with an instructor, logging PIC when not rated, and\nwhether a \u00a7 61.31(d) endorsement is needed for that time.\n",
+    "related": [],
+    "interprets": [
+      "61.129(c)(2)",
+      "61.129(c)(4)",
+      "61.51(e)",
+      "61.31(d)",
+      "61.63(b)(1)"
+    ]
+  },
+  {
+    "id": "interp-crowe-2015-2",
+    "title": "Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-08-28",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "part-141",
+      "examining-authority",
+      "practical-test",
+      "medical"
+    ],
+    "applies_to": [],
+    "notes": "Whether a part 141 end-of-course test given under examining authority is a\npractical test for medical-certificate purposes.\n",
+    "related": [
+      "interp-crowe-2015"
+    ],
+    "interprets": [
+      "141.67",
+      "61.39(a)(4)",
+      "61.1",
+      "141 Appendix B"
+    ]
+  },
+  {
+    "id": "interp-crowe-2015",
+    "title": "Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-06-09",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "medical",
+      "practical-test",
+      "eligibility",
+      "part-141",
+      "private"
+    ],
+    "applies_to": [],
+    "notes": "Five questions on when a private applicant needs a medical certificate:\nexaminer acting as PIC, part 141 end-of-course tests, issuing the\ncertificate, training without a medical, and a \"student pilot purposes\nonly\" medical.\n",
+    "related": [],
+    "interprets": [
+      "61.39(a)(4)",
+      "61.23(a)(3)(vi)",
+      "61.47(b)",
+      "67.401(a)",
+      "141 Appendix B"
+    ]
+  },
+  {
+    "id": "interp-de-joseph-2017",
+    "title": "Legal Interpretation to Francis De Joseph",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2017-06-21",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "maintenance",
+      "inoperative-equipment"
+    ],
+    "applies_to": [],
+    "notes": "Whether \u00a7 91.405(c) and \u00a7 91.213(d)(2) let a part 91 aircraft operate\nindefinitely with inoperative equipment.\n",
+    "related": [
+      "interp-peri-2018"
+    ],
+    "interprets": [
+      "91.405(a)",
+      "91.405(c)",
+      "91.213(d)(2)"
+    ]
+  },
+  {
+    "id": "interp-dean-2013",
+    "title": "Legal Interpretation to Ian Robert Dean (Dean International)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2013-02-15",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "practical-test",
+      "aircraft-requirements",
+      "complex",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "Whether a multiengine airplane may be used for the complex portion of a\ncommercial single-engine practical test, or for the \u00a7 61.129(a)(3)(ii)\ncomplex training hours. Cites Fitch (Nov. 14, 2012).\n",
+    "related": [],
+    "interprets": [
+      "61.45(a)",
+      "61.45(b)(1)",
+      "61.129(a)(3)(ii)"
+    ]
+  },
+  {
+    "id": "interp-domingo-2018-2",
+    "title": "Chief Counsel Memorandum to Ricardo Domingo, AFX-1: 14 CFR 67.401(f)(4)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2018-10-12",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "medical",
+      "special-issuance",
+      "basicmed"
+    ],
+    "applies_to": [],
+    "notes": "Whether an unexpired special-issuance Authorization can be withdrawn for not\nproviding medical information after the underlying medical certificate has\nexpired, and the effect on BasicMed eligibility. Includes the AFS request memo.\n",
+    "related": [],
+    "interprets": [
+      "67.401(f)(4)",
+      "61.23(c)(3)"
+    ]
+  },
+  {
+    "id": "interp-domingo-2018",
+    "title": "Chief Counsel Memorandum to Ricardo Domingo, AFX-1: 14 CFR 61.109(a)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2018-07-19",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "private",
+      "aeronautical-experience",
+      "additional-rating"
+    ],
+    "applies_to": [],
+    "notes": "Whether the 20 hours of dual and 10 hours of solo in \u00a7 61.109(a) must be in a\nsingle-engine airplane and include the (a)(1)-(5) training. Requested by\nFlight Standards; includes the AFS-800 request memo.\n",
+    "related": [],
+    "interprets": [
+      "61.109(a)",
+      "61.107(b)(1)",
+      "61.103(f)(1)"
+    ]
+  },
+  {
+    "id": "interp-gebhart-2009",
+    "title": "Legal Interpretation to Jeff Gebhart",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2009-06-22",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "cross-country",
+      "safety-pilot",
+      "instrument-rating"
+    ],
+    "applies_to": [],
+    "notes": "PIC and cross-country logging for a pilot under the hood and the safety\npilot acting as PIC on a 187 nm flight.\n",
+    "related": [],
+    "interprets": [
+      "61.51(e)",
+      "61.65(d)",
+      "61.1(b)(3)(ii)",
+      "91.109(b)"
+    ]
+  },
+  {
+    "id": "interp-glenn-2009",
+    "title": "Legal Interpretation to Ted Louis Glenn",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "cross-country",
+      "pic-logging",
+      "sic",
+      "safety-pilot",
+      "atp"
+    ],
+    "applies_to": [],
+    "notes": "Seven scenarios on logging PIC, SIC and cross-country time across safety\npilot, part 135 and part 121 crews, and shared flying; plus whether a\nrepositioning flight changes the original point of departure.\n",
+    "related": [
+      "interp-gebhart-2009",
+      "interp-hilliard-2009",
+      "interp-van-zanen-2009",
+      "interp-sisk-2008"
+    ],
+    "interprets": [
+      "61.1(b)(3)",
+      "61.51(e)",
+      "61.51(f)",
+      "61.65(d)",
+      "61.109",
+      "61.129",
+      "61.159",
+      "135.243(b)(2)",
+      "91.109(b)"
+    ]
+  },
+  {
+    "id": "interp-gordon-2006",
+    "title": "Legal Interpretation to Gareth Gordon",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "instrument-rating",
+      "aeronautical-experience",
+      "cross-country"
+    ],
+    "applies_to": [],
+    "notes": "Whether the \u00a7 61.65(d) 50 hours of PIC cross-country and 40 hours of\ninstrument time may be accrued concurrently.\n",
+    "related": [],
+    "interprets": [
+      "61.65(d)(1)",
+      "61.65(d)(2)",
+      "61.1(b)(3)(ii)",
+      "61.51(e)"
+    ]
+  },
+  {
+    "id": "interp-grannis-2016-2",
+    "title": "Legal Interpretation to William Grannis",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2016-06-30",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "cross-country",
+      "flight-time",
+      "logging"
+    ],
+    "applies_to": [],
+    "notes": "Whether cross-country time is logged as airborne time or as \"flight time\"\nunder \u00a7 1.1. Includes the request letter, which raises examiners\ndiscounting cross-country time.\n",
+    "related": [],
+    "interprets": [
+      "61.1(b)(3)",
+      "1.1"
+    ]
+  },
+  {
+    "id": "interp-grannis-2016",
+    "title": "Legal Interpretation to William Grannis",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2016-04-21",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "aeronautical-experience",
+      "solo"
+    ],
+    "applies_to": [],
+    "notes": "Whether the \u00a7 61.129(a)(4) 10 hours may combine solo time and time\nperforming PIC duties with an instructor. Includes the request letter.\n",
+    "related": [],
+    "interprets": [
+      "61.129(a)(4)"
+    ]
+  },
+  {
+    "id": "interp-grannis-2017",
+    "title": "Legal Interpretation to William W. Grannis",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2017-08-03",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "part-119",
+      "intro-flights",
+      "air-tours",
+      "commercial-operations"
+    ],
+    "applies_to": [],
+    "notes": "Meaning of \"student instruction\" and \"training flights\" in \u00a7 119.1(e),\nand how discovery, introductory and demonstration flights fit the\nexceptions, including the air tour LOA route.\n",
+    "related": [
+      "interp-murphy-2008",
+      "interp-ragland-2015"
+    ],
+    "interprets": [
+      "119.1(e)(1)",
+      "119.1(e)(2)",
+      "119.1(e)(3)",
+      "110.2",
+      "91.147"
+    ]
+  },
+  {
+    "id": "interp-grayson-2010-2",
+    "title": "Legal Interpretation to Taylor Grayson",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2010-01-04",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "cfi-qualifications",
+      "instrument-training",
+      "multiengine"
+    ],
+    "applies_to": [],
+    "notes": "Whether a CFII without a multiengine rating on the flight instructor\ncertificate may give instrument training in a multiengine airplane, and the\n2009 change to \u00a7 61.195(c). Notes Order 8900.1 5-503 as inconsistent.\n",
+    "related": [],
+    "interprets": [
+      "61.195(b)",
+      "61.195(c)",
+      "61.183"
+    ]
+  },
+  {
+    "id": "interp-grayson-2010-3",
+    "title": "Legal Interpretation to Taylor Grayson",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2010-07-06",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "instrument-rating",
+      "instrument-training",
+      "cfi-qualifications",
+      "cfi-records",
+      "solo-endorsement"
+    ],
+    "applies_to": [],
+    "notes": "Whether a CFI without an instrument rating may give training toward the\ninstrument rating beyond the required 15 hours, and which solo\nendorsements a CFI must keep records of under \u00a7 61.189(b)(1).\n",
+    "related": [
+      "interp-grayson-2010-2"
+    ],
+    "interprets": [
+      "61.65(d)(2)",
+      "61.195(c)",
+      "61.189(b)(1)",
+      "61.87"
+    ]
+  },
+  {
+    "id": "interp-grayson-2010",
+    "title": "Legal Interpretation to Taylor Grayson",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2010-01-04",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "endorsements",
+      "complex",
+      "high-performance",
+      "tailwheel",
+      "practical-test",
+      "student-pilot"
+    ],
+    "applies_to": [],
+    "notes": "Whether the \u00a7 61.31(e)-(j) additional training and endorsements are\n\"ratings limitations\" that \u00a7 61.31(l)(2) waives for student pilots and\npractical test applicants.\n",
+    "related": [],
+    "interprets": [
+      "61.31(e)",
+      "61.31(f)",
+      "61.31(g)",
+      "61.31(h)",
+      "61.31(i)",
+      "61.31(j)",
+      "61.31(l)(2)"
+    ]
+  },
+  {
+    "id": "interp-greenwood-2015",
+    "title": "Legal Interpretation to Stephen R. Greenwood (Fly By Knight)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-10-09",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "maintenance",
+      "100-hour",
+      "flight-school",
+      "rental"
+    ],
+    "applies_to": [],
+    "notes": "Six scenarios on the 100-hour inspection for an aircraft used for both\ninstruction and rental, the 10-hour en-route allowance, and whether an\nannual resets the 100-hour clock. Corrects and strikes the Oct. 1, 2014\nletter to the same requester.\n",
+    "related": [],
+    "interprets": [
+      "91.409(b)",
+      "141.39(a)(3)"
+    ]
+  },
+  {
+    "id": "interp-haralson-2009",
+    "title": "Legal Interpretation to Randy Haralson",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "instrument-rating",
+      "cross-country",
+      "pic-logging",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "Whether dual time in actual instrument conditions, as sole manipulator,\ncounts toward the 50 hours of cross-country time as PIC for the instrument\nrating.\n",
+    "related": [
+      "interp-gordon-2006"
+    ],
+    "interprets": [
+      "61.65(d)(1)",
+      "61.51(e)",
+      "61.3(e)"
+    ]
+  },
+  {
+    "id": "interp-hartzell-2010",
+    "title": "Legal Interpretation to Kristine Hartzell (AOPA)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2010-12-17",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "instrument-training",
+      "aeronautical-experience",
+      "helicopter"
+    ],
+    "applies_to": [],
+    "notes": "Clarifies the Oct. 8, 2010 Theriault letter on whether instrument rating\ntraining satisfies the commercial instrument aeronautical experience.\n",
+    "related": [
+      "interp-theriault-2011",
+      "interp-oord-2018"
+    ],
+    "interprets": [
+      "61.129(c)(3)(i)",
+      "61.65(e)",
+      "61.129"
+    ]
+  },
+  {
+    "id": "interp-herman-2009",
+    "title": "Legal Interpretation to Jason E. Herman",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2009-05-21",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "complex",
+      "high-performance",
+      "endorsements"
+    ],
+    "applies_to": [],
+    "notes": "Whether a rated pilot without complex or high-performance endorsements may\nlog PIC as sole manipulator. Source of the logging-PIC versus acting-as-PIC\ndistinction cited in later letters.\n",
+    "related": [],
+    "interprets": [
+      "61.51(e)",
+      "61.31(e)",
+      "61.31(f)"
+    ]
+  },
+  {
+    "id": "interp-hilliard-2009",
+    "title": "Legal Interpretation to James Hilliard",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "cross-country",
+      "instrument-rating",
+      "logging"
+    ],
+    "applies_to": [],
+    "notes": "Whether two pilots who split a flight at the controls may each log\ncross-country time toward \u00a7 61.65(d).\n",
+    "related": [
+      "interp-gebhart-2009",
+      "interp-glenn-2009",
+      "interp-van-zanen-2009"
+    ],
+    "interprets": [
+      "61.65(d)",
+      "61.1(b)(3)(ii)"
+    ]
+  },
+  {
+    "id": "interp-jablecki-2016",
+    "title": "Legal Interpretation to Joseph S. Jablecki",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2016-06-30",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "helicopter",
+      "cfi-qualifications",
+      "instrument-training"
+    ],
+    "applies_to": [],
+    "notes": "Whether the CFI giving the five hours of helicopter control by reference to\ninstruments under \u00a7 61.129(c)(3)(i) needs an instrument rating on the\nflight instructor certificate.\n",
+    "related": [
+      "interp-grayson-2010-2",
+      "interp-rohlfing-2016"
+    ],
+    "interprets": [
+      "61.129(c)(3)(i)",
+      "61.195(c)"
+    ]
+  },
+  {
+    "id": "interp-keller-2009",
+    "title": "Legal Interpretation to Terrence K. Keller Jr.",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2009-09-08",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "private",
+      "cross-country",
+      "solo",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "Whether the private long solo cross-country must also meet the \u00a7 61.1\ncross-country definition, worked through a three-airport example.\n",
+    "related": [],
+    "interprets": [
+      "61.109(a)(5)(ii)",
+      "61.1(b)(3)(ii)(B)"
+    ]
+  },
+  {
+    "id": "interp-kuhn-2014",
+    "title": "Legal Interpretation to Jared Kuhn",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2014-02-20",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "pic-logging",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "How the CFI and the applicant log time spent performing PIC duties with an\ninstructor under \u00a7 61.129(a)(4), and who must act as PIC.\n",
+    "related": [
+      "interp-herman-2009"
+    ],
+    "interprets": [
+      "61.129(a)(4)",
+      "61.129(a)(2)",
+      "61.51(e)(1)(i)",
+      "61.51(e)(3)"
+    ]
+  },
+  {
+    "id": "interp-letts-2017",
+    "title": "Legal Interpretation to Thomas D. Letts",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2017-12-19",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "anticollision-lights",
+      "inoperative-equipment",
+      "equipment-requirements"
+    ],
+    "applies_to": [],
+    "notes": "Whether a C172 may fly VFR day on strobes alone with the rotating beacon\nplacarded inoperative.\n",
+    "related": [
+      "interp-murphy-2011"
+    ],
+    "interprets": [
+      "91.205(a)",
+      "91.205(b)(11)",
+      "91.209(b)",
+      "91.213(d)"
+    ]
+  },
+  {
+    "id": "interp-levy-2008",
+    "title": "Legal Interpretation to Ronald B. Levy",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2008-08-07",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "instrument-currency",
+      "cfi",
+      "logging",
+      "approaches"
+    ],
+    "applies_to": [],
+    "notes": "Whether a CFII instructing in actual conditions may log the student's\napproaches toward the instructor's own \u00a7 61.57(c) currency.\n",
+    "related": [],
+    "interprets": [
+      "61.51(g)(2)",
+      "61.57(c)(1)"
+    ]
+  },
+  {
+    "id": "interp-mclellan-2015",
+    "title": "Legal Interpretation to Bryan McLellan",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-06-05",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "helicopter",
+      "additional-rating",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "Whether a commercial helicopter rating can be sought without a private\nhelicopter rating, whether commercial-level training logged before adding\nthe private rating still counts, and the 20 hours for a category add-on.\n",
+    "related": [],
+    "interprets": [
+      "61.129(c)",
+      "61.63(b)(1)",
+      "61.127(b)(3)",
+      "61.51(h)"
+    ]
+  },
+  {
+    "id": "interp-morgan-2013",
+    "title": "Legal Interpretation to Jeff Morgan",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2013-10-22",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "sic",
+      "type-rating"
+    ],
+    "applies_to": [],
+    "notes": "Whether a pilot with an SIC-privileges-only type rating may log PIC as sole\nmanipulator. Restates Counsil.\n",
+    "related": [
+      "interp-counsil-2012",
+      "interp-speranza-2009",
+      "interp-herman-2009"
+    ],
+    "interprets": [
+      "61.51(e)(1)(i)"
+    ]
+  },
+  {
+    "id": "interp-murphy-2008",
+    "title": "Legal Interpretation to Daniel Murphy",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2008-12-22",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "medical",
+      "cfi",
+      "student-pilot",
+      "logbook",
+      "intro-flights",
+      "part-119",
+      "shoulder-harness"
+    ],
+    "applies_to": [],
+    "notes": "Five questions: medical class for a CFI instructing for hire, student solo\nabove a cloud layer, what counts as a logbook, introductory flights under\n\u00a7 119.1(e)(1), and shoulder harness during taxi. Withdraws the 1991 Gandy\nand Rubin interpretations.\n",
+    "related": [],
+    "interprets": [
+      "61.23(a)(3)",
+      "61.89(a)(7)",
+      "61.189(a)",
+      "119.1(e)(1)",
+      "91.105(b)",
+      "91.107(a)(3)"
+    ]
+  },
+  {
+    "id": "interp-murphy-2009",
+    "title": "Legal Interpretation to Daniel Murphy",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2009-06-30",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "traffic-pattern",
+      "practical-test",
+      "pic-logging",
+      "instrument-currency",
+      "approaches"
+    ],
+    "applies_to": [],
+    "notes": "Right turns on a circling approach at a Class G airport, logging PIC on a\npractical test, and how far an approach must be flown to count for\ncurrency and the instrument rating.\n",
+    "related": [
+      "interp-herman-2009",
+      "interp-murphy-2015"
+    ],
+    "interprets": [
+      "91.126(b)(1)",
+      "61.47(b)",
+      "61.51(e)",
+      "61.57(c)(1)(i)",
+      "61.65(d)(2)(iii)(B)"
+    ]
+  },
+  {
+    "id": "interp-murphy-2011",
+    "title": "Legal Interpretation to Daniel Murphy",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2011-01-11",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "anticollision-lights",
+      "commercial",
+      "cross-country",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "When anticollision lights must be on and whether both beacon and strobes\nare required; and whether a student pilot's cross-country can count for the\ncommercial 2-hour day cross-country.\n",
+    "related": [
+      "interp-letts-2017"
+    ],
+    "interprets": [
+      "91.209(b)",
+      "61.129(a)(3)(iii)"
+    ]
+  },
+  {
+    "id": "interp-murphy-2015",
+    "title": "Legal Interpretation to Daniel Murphy",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-03-04",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "traffic-pattern",
+      "pic-logging",
+      "autopilot",
+      "sic",
+      "logging"
+    ],
+    "applies_to": [],
+    "notes": "AIM right-turn pattern entry versus \u00a7 91.126 (refers to Krug 2014 and\nGossman 2011), logging PIC while using the autopilot, and double-logging\nPIC and SIC.\n",
+    "related": [
+      "interp-murphy-2009"
+    ],
+    "interprets": [
+      "91.126(b)(1)",
+      "61.51(e)(1)(i)",
+      "61.51(f)",
+      "61.159(a)"
+    ]
+  },
+  {
+    "id": "interp-newman-2015",
+    "title": "Legal Interpretation to Richard L. Newman",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-07-28",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "flight-review",
+      "glider",
+      "additional-rating",
+      "ground-instructor"
+    ],
+    "applies_to": [],
+    "notes": "Whether a flight review may be split between two instructors, and whether a\ncertificated pilot needs a current flight review to solo while training for\na glider rating.\n",
+    "related": [
+      "interp-beard-2015"
+    ],
+    "interprets": [
+      "61.56(c)",
+      "61.56(g)",
+      "61.215"
+    ]
+  },
+  {
+    "id": "interp-omara-2012",
+    "title": "Legal Interpretation to Mr. O'Mara",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2012-07-05",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "private",
+      "weight-shift-control",
+      "additional-rating",
+      "aeronautical-experience",
+      "flight-time"
+    ],
+    "applies_to": [],
+    "notes": "Which \u00a7 61.109(j) weight-shift-control experience must be in a WSC aircraft\nwhen adding the rating to an existing private certificate.\n",
+    "related": [],
+    "interprets": [
+      "61.109(j)",
+      "61.63(b)(1)",
+      "1.1"
+    ]
+  },
+  {
+    "id": "interp-oord-2018",
+    "title": "Legal Interpretation to David J. Oord (AOPA)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2018-08-02",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "instrument-training",
+      "aeronautical-experience",
+      "logging"
+    ],
+    "applies_to": [],
+    "notes": "Reconciles Theriault (2010, 2011), Hartzell (2010) and Jablecki (2016) on\ncounting instrument-rating training toward \u00a7 61.129 and states they remain\nin effect. Includes the AFS-810 inquiry.\n",
+    "related": [
+      "interp-hartzell-2010",
+      "interp-theriault-2011",
+      "interp-jablecki-2016"
+    ],
+    "interprets": [
+      "61.129(c)(3)(i)",
+      "61.65(e)",
+      "61.51"
+    ]
+  },
+  {
+    "id": "interp-peri-2018",
+    "title": "Legal Interpretation to Richard A. Peri (Aircraft Electronics Association)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2018-06-13",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "maintenance",
+      "inoperative-equipment"
+    ],
+    "applies_to": [],
+    "notes": "Meaning of \"inspected\" in \u00a7 91.405(c) for equipment left inoperative under\n\u00a7 91.213(d). Includes the AEA request.\n",
+    "related": [
+      "interp-de-joseph-2017"
+    ],
+    "interprets": [
+      "91.405(c)",
+      "91.213(d)(2)"
+    ]
+  },
+  {
+    "id": "interp-ragland-2015-2",
+    "title": "Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-07-22",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "retest",
+      "practical-test",
+      "dpe",
+      "endorsements"
+    ],
+    "applies_to": [],
+    "notes": "Meaning of \"necessary training\" in \u00a7 61.49(a)(1) after a failed practical\ntest, and who decides what retraining is required.\n",
+    "related": [
+      "interp-underwood-2014"
+    ],
+    "interprets": [
+      "61.49(a)",
+      "61.43(f)",
+      "61.47(a)"
+    ]
+  },
+  {
+    "id": "interp-ragland-2015",
+    "title": "Legal Interpretation to Samuel T. Ragland (Double Eagle Aviation)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2015-05-05",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "part-119",
+      "air-tours",
+      "commercial-operations",
+      "drug-testing"
+    ],
+    "applies_to": [],
+    "notes": "Whether the \u00a7 119.1(e)(4) aerial-work exception covers sightseeing flights\nwithout a \u00a7 91.147 LOA or part 119 certificate.\n",
+    "related": [],
+    "interprets": [
+      "119.1(e)(4)",
+      "91.147",
+      "110.2",
+      "120.1"
+    ]
+  },
+  {
+    "id": "interp-robinson-2016",
+    "title": "Legal Interpretation to Norman W. Robinson Jr.",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2016-09-20",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "cfi-qualifications",
+      "glider",
+      "initial-cfi"
+    ],
+    "applies_to": [],
+    "notes": "Whether the 80 hours of instruction required to train initial glider CFI\napplicants must have been given in gliders.\n",
+    "related": [
+      "interp-wadsworth-2008"
+    ],
+    "interprets": [
+      "61.195(h)(2)(v)"
+    ]
+  },
+  {
+    "id": "interp-rohlfing-2016",
+    "title": "Legal Interpretation to Scott Rohlfing",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2016-02-24",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "instrument-rating",
+      "private",
+      "instrument-training",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "Whether the private pilot's 3 hours of control by reference to instruments\ncount toward the instrument rating's 40 hours and 15 hours.\n",
+    "related": [
+      "interp-grayson-2010-2",
+      "interp-grayson-2010-3"
+    ],
+    "interprets": [
+      "61.65(d)(2)",
+      "61.109(a)(3)"
+    ]
+  },
+  {
+    "id": "interp-sisk-2008",
+    "title": "Legal Interpretation to E. Thomas Sisk",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2008-03-18",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "cross-country",
+      "instrument-rating",
+      "logging"
+    ],
+    "applies_to": [],
+    "notes": "Whether a cross-country flight must include a single leg of more than 50 nm.\nReaffirms Tenuta (Apr. 17, 1998).\n",
+    "related": [],
+    "interprets": [
+      "61.1(b)(3)(ii)"
+    ]
+  },
+  {
+    "id": "interp-speranza-2009",
+    "title": "Legal Interpretation to John Speranza",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "instrument-rating",
+      "ifr"
+    ],
+    "applies_to": [],
+    "notes": "Whether a non-instrument-rated pilot may log PIC as sole manipulator on an IFR\nflight, and whether the instrument-rated pilot acting as PIC may also log it.\n",
+    "related": [
+      "interp-herman-2009"
+    ],
+    "interprets": [
+      "61.51(e)(1)(i)",
+      "61.51(e)(1)(iii)"
+    ]
+  },
+  {
+    "id": "interp-sun-2011",
+    "title": "Legal Interpretation to Mike Sun",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2011-08-11",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "helicopter",
+      "cross-country",
+      "night",
+      "aeronautical-experience"
+    ],
+    "applies_to": [],
+    "notes": "Whether a commercial helicopter night cross-country under IFR can also count\ntoward the instrument portion of \u00a7 61.129(c)(3).\n",
+    "related": [],
+    "interprets": [
+      "61.129(c)(3)(i)",
+      "61.129(c)(3)(iii)"
+    ]
+  },
+  {
+    "id": "interp-theriault-2011",
+    "title": "Legal Interpretation to Richard Theriault",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2011-07-06",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "commercial",
+      "helicopter",
+      "instrument-training",
+      "authorized-instructor",
+      "part-135"
+    ],
+    "applies_to": [],
+    "notes": "Follow-up to the Oct. 8, 2010 Theriault letter: devices usable for the\n\u00a7 61.129(c)(3)(i) hours, and whether a part 135 company instructor without a\nCFI is an authorized instructor for logbook entries and the 8710.\n",
+    "related": [
+      "interp-hartzell-2010",
+      "interp-oord-2018"
+    ],
+    "interprets": [
+      "61.129(c)(3)(i)",
+      "61.1(b)(2)(iii)",
+      "135.338"
+    ]
+  },
+  {
+    "id": "interp-trussell-2012",
+    "title": "Legal Interpretation to William F. Trussell",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2012-07-24",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "sic",
+      "safety-pilot",
+      "cost-sharing"
+    ],
+    "applies_to": [],
+    "notes": "How a safety pilot logs time depending on who acts as PIC, and whether the\nsafety pilot must share expenses under \u00a7 61.113(c).\n",
+    "related": [],
+    "interprets": [
+      "61.51(e)(1)(iii)",
+      "61.51(f)",
+      "61.113(c)",
+      "91.109(b)"
+    ]
+  },
+  {
+    "id": "interp-underwood-2014",
+    "title": "Legal Interpretation to Peter K. Underwood",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2014-11-03",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "initial-cfi",
+      "cfi-qualifications",
+      "retest",
+      "endorsements",
+      "form-8710"
+    ],
+    "applies_to": [],
+    "notes": "Whether instructors under 24 months may train or retrain an initial CFI\napplicant, and whether a CFI who gave no flight training may sign the\n\u00a7 61.187 endorsement and the 8710. Cites Order 8900.1 and 8900.2.\n",
+    "related": [
+      "interp-ragland-2015-2",
+      "interp-wadsworth-2008"
+    ],
+    "interprets": [
+      "61.195(h)(2)",
+      "61.49(a)",
+      "61.187(a)"
+    ]
+  },
+  {
+    "id": "interp-van-zanen-2009",
+    "title": "Legal Interpretation to Dwight B. Van Zanen",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "cross-country",
+      "logging"
+    ],
+    "applies_to": [],
+    "notes": "Whether a pilot may choose how to divide legs into separate flights when\nlogging cross-country time.\n",
+    "related": [
+      "interp-sisk-2008",
+      "interp-glenn-2009",
+      "interp-hilliard-2009"
+    ],
+    "interprets": [
+      "61.1(b)(3)(ii)"
+    ]
+  },
+  {
+    "id": "interp-wadsworth-2008",
+    "title": "Legal Interpretation to Troy M. Wadsworth (National Pilot Academy)",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2008-09-12",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "initial-cfi",
+      "cfi-qualifications",
+      "flight-school"
+    ],
+    "applies_to": [],
+    "notes": "Whether an initial CFI applicant may get \"right seat proficient\" with a\njunior instructor before training with a \u00a7 61.195(h) instructor.\n",
+    "related": [],
+    "interprets": [
+      "61.195(h)"
+    ]
+  },
+  {
+    "id": "interp-walker-2011",
+    "title": "Legal Interpretation to Keith E. Walker",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2011-12-14",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "pic-logging",
+      "instrument-rating",
+      "ifr",
+      "logging"
+    ],
+    "applies_to": [],
+    "notes": "Whether a non-instrument-rated pilot flying in IMC may log PIC and actual\ninstrument time while an instrument-rated pilot acts as PIC.\n",
+    "related": [
+      "interp-speranza-2009",
+      "interp-herman-2009"
+    ],
+    "interprets": [
+      "61.51(e)",
+      "61.51(g)(1)"
+    ]
+  },
+  {
+    "id": "interp-williams-2018-2",
+    "title": "Legal Interpretation to Stephen J. Williams",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2018-09-25",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "gyroplane",
+      "ifr",
+      "instrument-rating"
+    ],
+    "applies_to": [],
+    "notes": "Whether a gyroplane may be flown under IFR or below VFR minimums without an\ninstrument rating. Includes the request letter.\n",
+    "related": [
+      "interp-jablecki-2016",
+      "interp-grayson-2010-2",
+      "interp-grayson-2010-3"
+    ],
+    "interprets": [
+      "61.3(e)",
+      "91.9(a)",
+      "61.129(d)(3)(i)"
+    ]
+  },
+  {
+    "id": "interp-williams-2018",
+    "title": "Legal Interpretation to Lawrence Williams",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "2018-08-27",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "medical",
+      "cfi",
+      "basicmed",
+      "multiengine",
+      "instrument-training"
+    ],
+    "applies_to": [],
+    "notes": "Whether a CFI not acting as PIC needs a medical when training a single-engine\npilot for a multiengine rating, and whether instrument training may be\ngiven from a jump seat with a safety pilot up front.\n",
+    "related": [
+      "interp-crowe-2013"
+    ],
+    "interprets": [
+      "61.23(a)(3)(ii)",
+      "61.31(d)",
+      "61.195(g)",
+      "91.109(a)",
+      "61.113(i)"
+    ]
+  },
+  {
+    "id": "interp-wynne-2008",
+    "title": "Legal Interpretation to Joshua Wynne",
+    "doc_number": null,
+    "type": "interpretation",
+    "status": "unknown",
+    "revision": null,
+    "effective_date": "TODO",
+    "url": "https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations",
+    "tags": [
+      "legal-interpretation",
+      "instrument-currency",
+      "instrument-rating",
+      "practical-test"
+    ],
+    "applies_to": [],
+    "notes": "Whether a newly instrument-rated pilot is immediately subject to the\n\u00a7 61.57(c) recency requirement.\n",
+    "related": [],
+    "interprets": [
+      "61.57(c)",
+      "61.57(d)"
+    ]
+  },
+  {
     "id": "order-8000-95",
     "title": "Designee Management Policy",
     "doc_number": 8000.95,
