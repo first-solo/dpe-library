@@ -1,0 +1,29 @@
+id: interp-crowe-2015
+title: 'Legal Interpretation to B. Dan Crowe Jr. (Palm Beach Helicopters)'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: '2015-06-09'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.39(a)(4)'
+- '61.23(a)(3)(vi)'
+- '61.47(b)'
+- '67.401(a)'
+- '141 Appendix B'
+tags:
+- legal-interpretation
+- medical
+- practical-test
+- eligibility
+- part-141
+- private
+check:
+  method: manual
+notes: |
+  Five questions on when a private applicant needs a medical certificate:
+  examiner acting as PIC, part 141 end-of-course tests, issuing the
+  certificate, training without a medical, and a "student pilot purposes
+  only" medical.

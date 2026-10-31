@@ -1,0 +1,28 @@
+id: interp-beard-2015
+title: 'Legal Interpretation to Daniel Beard'
+doc_number: null
+type: interpretation
+status: unknown
+# verify this date: Newman (2015) cites this as Jan. 9, 2015 and the request was
+# July 27, 2014; Bennett (2016) cites it as Jan. 9, 2013. Stamp is unreadable.
+effective_date: '2015-01-09'
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.31(d)'
+- '61.56(c)'
+- '61.56(g)'
+- '61.81'
+- '61.63(b)(1)'
+tags:
+- legal-interpretation
+- solo-endorsement
+- additional-rating
+- flight-review
+check:
+  method: manual
+notes: |
+  Whether subpart C student solo endorsements apply to certificated pilots
+  adding a category or class, whether a § 61.31(d) endorsement expires, and
+  whether the solo pilot needs a current flight review.

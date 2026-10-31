@@ -96,11 +96,15 @@ for the one writer that touches catalog files; scripts also run directly with
   ACS appendices may be stale for any document at revision C or later.
 - **Legal interpretations don't have document numbers.** They're identified by
   requester and date, and the useful cross-reference is the regulation they
-  interpret, not other documents. The schema does not yet handle this well.
+  interpret, not other documents. `interprets:` carries that; see the
+  conventions in `SCHEMA.md`. Public `notes` on a letter state the question it
+  answers, never a summary of the holding.
 
 ## Current state
 
-Scaffold complete and pushed. Six catalog entries exist, three of them stubs.
+Scaffold complete and pushed. 65 catalog entries: the original six (three of
+them stubs) plus 59 legal interpretations, which brought in the `interprets:`
+field and a "By regulation" index in the README.
 `acs-private-airplane` and `acs-commercial-airplane` are real: verified URLs,
 `check: head`, baselines recorded. `interp-agc-index` is a `list` watcher
 rather than a document. The update loop has been proven end to end, including
@@ -118,10 +122,13 @@ gitignored `local/` that does not exist on a fresh runner.
    tags, `TODO` elsewhere — then verify in a second pass. The schema has only
    met six documents; expect it to need changes. Annotating stubs with
    `# verify this` is safe now that the writer preserves comments.
-2. **An `interprets:` field** for legal interpretations, holding CFR
-   references (`interprets: [61.129, 61.195]`). Proposed, not agreed. Raise it
-   when the first real interpretations get catalogued rather than building it
-   speculatively.
+2. **Finish the legal interpretations.** 59 Chief Counsel letters are
+   catalogued with `interprets:` citations, all `status: unknown` with
+   `pdf_url: TODO`. Remaining: record the direct faa.gov PDF links, resolve the
+   dates marked `TODO` or `# verify this`, and mark each letter `current` only
+   after checking it against the FAA database. Legal interpretations also
+   respond to rule changes after the letter (BasicMed in 2017, and the part 61
+   amendments since), so "not withdrawn" is not the same as "still accurate".
 3. **Local HTML view (private).** `build.py` emits `local/index.html`
    alongside the existing markdown: a self-contained page opened by
    double-clicking, no server. Links to FAA sources and to local copies in

@@ -1,0 +1,24 @@
+id: interp-speranza-2009
+title: 'Legal Interpretation to John Speranza'
+doc_number: null
+type: interpretation
+status: unknown
+effective_date: TODO  # verify this: stamp appears to read "DEC 14 2009" but Counsil, Morgan and Walker cite Dec. 4, 2009
+source_url: https://www.faa.gov/about/office_org/headquarters_offices/agc/practice_areas/regulations/interpretations
+pdf_url: TODO  # direct faa.gov link not yet recorded
+last_checked:
+interprets:
+- '61.51(e)(1)(i)'
+- '61.51(e)(1)(iii)'
+tags:
+- legal-interpretation
+- pic-logging
+- instrument-rating
+- ifr
+related:
+- interp-herman-2009
+check:
+  method: manual
+notes: |
+  Whether a non-instrument-rated pilot may log PIC as sole manipulator on an IFR
+  flight, and whether the instrument-rated pilot acting as PIC may also log it.
